@@ -1,0 +1,13 @@
+Package: hw-probe
+Architecture: all
+Installed-Size: 252
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4-1
+Homepage: https://github.com/linuxhw/hw-probe
+Depends: curl, hwinfo, net-tools, perl
+Description: Tool to probe for hardware and check its operability
+Filename: all/hw-probe_1.4-1_all.deb
+SHA1: 1857b1a55dbbe74bfe7dbc38403082232ef14cd3
+SHA256: 8f2a2caf7a7fbd2467ecb4c5faadc24fb33730fcc013eef34fe32284caaa65a6
+Size: 40056
+

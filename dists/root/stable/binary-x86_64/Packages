@@ -1,0 +1,535 @@
+Package: aircrack-ng
+Architecture: x86_64
+Installed-Size: 1188
+Maintainer: Auxilus @Auxilus
+Version: 1.2-rc4-6
+Homepage: https://www.aircrack-ng.org/
+Depends: libc++, libnl, openssl, libpcap, pciutils
+Description: WiFi security auditing tools suite
+Filename: x86_64/aircrack-ng_1.2-rc4-6_x86_64.deb
+SHA1: b80fc1fa005af522479173b90c929062f74724ba
+SHA256: 1d9da02b1550d5f69759eae9d60a2f493a8b736ae760e557b615bb7e2f62de9b
+Size: 283320
+
+Package: arp-scan
+Architecture: x86_64
+Installed-Size: 1100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.6-1
+Homepage: https://github.com/royhills/arp-scan
+Depends: libpcap
+Description: arp-scan is a command-line tool for system discovery and fingerprinting. It constructs and sends ARP requests to the specified IP addresses, and displays any responses that are received.
+Filename: x86_64/arp-scan_1.9.6-1_x86_64.deb
+SHA1: 1e0e6efc463d9ffeb0286e353b428202d673e286
+SHA256: d4ac62d710bf9f7010b1883b9d88b0c9949e076134e61d1714039dd03db36a70
+Size: 328256
+
+Package: chroot
+Architecture: x86_64
+Installed-Size: 140
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.31-1
+Homepage: https://www.gnu.org/software/coreutils/
+Description: Chroot utility from the Coreutils
+Filename: x86_64/chroot_8.31-1_x86_64.deb
+SHA1: 39d7eaa26e57dd44bdc67f8532d2e836700e4f0d
+SHA256: 1bd33cb87fa5748a391c8f102d6ebdf17c72c40df06f224a6c5c94bdc7548f40
+Size: 39914
+
+Package: cryptsetup-static
+Architecture: x86_64
+Installed-Size: 908
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.1-1
+Homepage: https://gitlab.com/cryptsetup/cryptsetup/
+Depends: cryptsetup (= 2.2.1-1)
+Description: Static libraries for cryptsetup
+Filename: x86_64/cryptsetup-static_2.2.1-1_x86_64.deb
+SHA1: 098671fb2525002cd6d5d99074b080ab766d7ae9
+SHA256: 8f2c9d2be08c80d613462207a2d4e30ad346fec54d89c0a7769108f930516cf2
+Size: 199416
+
+Package: cryptsetup
+Architecture: x86_64
+Installed-Size: 892
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.1-1
+Homepage: https://gitlab.com/cryptsetup/cryptsetup/
+Breaks: cryptsetup-dev
+Depends: json-c, libdevmapper, libgcrypt, libpopt, libuuid, util-linux, openssl
+Replaces: cryptsetup-dev
+Description: Userspace setup tool for transparent encryption of block devices using dm-crypt
+Filename: x86_64/cryptsetup_2.2.1-1_x86_64.deb
+SHA1: c0c18f2820be0be36a323d0c7b47b2e176f47fa4
+SHA256: 75f30ff013e65974d543ed459de46d45a7d3616fb5b8ce83c8ff07843c3f247e
+Size: 273276
+
+Package: dnsmasq
+Architecture: x86_64
+Installed-Size: 392
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.80-1
+Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
+Description: Dnsmasq provides network infrastructure for small networks
+Filename: x86_64/dnsmasq_2.80-1_x86_64.deb
+SHA1: 1110d5cb3a13c095448474d0b6e4f64eb2f3f7bc
+SHA256: f3b533cd194d288db0c2fff62613b6e706f16452e008783cc967f166d0c1439a
+Size: 174396
+
+Package: ethtool
+Architecture: x86_64
+Installed-Size: 436
+Maintainer: Auxilus @Auxilus
+Version: 5.3-1
+Homepage: https://mirrors.edge.kernel.org/pub/software/network/ethtool/
+Depends: libnl
+Description: standard Linux utility for controlling network drivers and hardware, particularly for wired Ethernet devices
+Filename: x86_64/ethtool_5.3-1_x86_64.deb
+SHA1: 49cabe5443d979b46c47003b544cd9b20cef40f6
+SHA256: 914a60e18700b26ea69def5302508f2b1de4efaa9b1cc355c9749b7bb2c3aa15
+Size: 109976
+
+Package: frida-server
+Architecture: x86_64
+Installed-Size: 105428
+Maintainer: Henrik Grimler @Grimler91
+Version: 12.7.24
+Homepage: https://www.frida.re/
+Depends: libiconv
+Description: Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
+Filename: x86_64/frida-server_12.7.24_x86_64.deb
+SHA1: d5275b49235a60cdd2ba09d92d791155e64fa78e
+SHA256: dfe336ac53f3457473e0bb0c58c7934c8cc0c26c59473f7640a91aa2ad2c96b9
+Size: 26656156
+
+Package: gptfdisk
+Architecture: x86_64
+Installed-Size: 800
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.4-1
+Homepage: https://www.rodsbooks.com/gdisk/
+Depends: libpopt, libuuid, ncurses
+Description: A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
+Filename: x86_64/gptfdisk_1.0.4-1_x86_64.deb
+SHA1: 95d80db698bfa475b65475d7a9dc2a95dec5c16e
+SHA256: a70c4c432d0bc53d3f93530777f10cc30084ed64a84a72c074871daa0d560ad5
+Size: 162102
+
+Package: hping3
+Architecture: x86_64
+Installed-Size: 208
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.0-1
+Homepage: http://www.hping.org/
+Depends: libandroid-shmem, libpcap, tcl
+Description: hping is a command-line oriented TCP/IP packet assembler/analyzer.
+Filename: x86_64/hping3_3.0.0-1_x86_64.deb
+SHA1: e5084bbf9bd18838731196feef28991be4288440
+SHA256: 4f4517b914c0c57f7caf0fd77826b0faf2c3b57c910c7f92f3f26075d59a591a
+Size: 68442
+
+Package: hw-probe
+Architecture: all
+Installed-Size: 252
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4-1
+Homepage: https://github.com/linuxhw/hw-probe
+Depends: curl, hwinfo, net-tools, perl
+Description: Tool to probe for hardware and check its operability
+Filename: all/hw-probe_1.4-1_all.deb
+SHA1: 1857b1a55dbbe74bfe7dbc38403082232ef14cd3
+SHA256: 8f2a2caf7a7fbd2467ecb4c5faadc24fb33730fcc013eef34fe32284caaa65a6
+Size: 40056
+
+Package: hwinfo
+Architecture: x86_64
+Installed-Size: 3556
+Maintainer: Fredrik Fornwall @fornwall
+Version: 21.67-1
+Homepage: https://github.com/openSUSE/hwinfo
+Breaks: hwinfo-dev
+Depends: libandroid-shmem, libuuid, libx86emu
+Replaces: hwinfo-dev
+Description: Hardware detection tool from openSUSE
+Filename: x86_64/hwinfo_21.67-1_x86_64.deb
+SHA1: 76a8d4c93e4f92f4d8a7f96db39a0df0ffedb7d6
+SHA256: d561783d8ac66f919b1a2f0118317d76c749780bc173f157172b1d89624ddaec
+Size: 797316
+
+Package: iodine
+Architecture: x86_64
+Installed-Size: 188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.7.0-7
+Homepage: http://code.kryo.se/iodine
+Depends: net-tools, zlib
+Description: Tunnel IPv4 data through a DNS server
+Filename: x86_64/iodine_0.7.0-7_x86_64.deb
+SHA1: 9d2f35cfa1c25f9c0afc953a1bbc29f77cc747bb
+SHA256: 6e6d7cf1599e4cced8ecd0cf69b76ff4b47a4a68c190391a66939a543ef6c356
+Size: 46564
+
+Package: ipset-static
+Architecture: x86_64
+Installed-Size: 300
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 7.3-1
+Homepage: http://ipset.netfilter.org
+Depends: ipset (= 7.3-1)
+Description: Static libraries for ipset
+Filename: x86_64/ipset-static_7.3-1_x86_64.deb
+SHA1: 32c05965b1e211866661f6c2a0f1fe3e41d9f20a
+SHA256: dc4d61148fe3fd3ff195e8c5d720ecb5873845b9070fd815aef3eb9b735a437d
+Size: 44518
+
+Package: ipset
+Architecture: x86_64
+Installed-Size: 524
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 7.3-1
+Homepage: http://ipset.netfilter.org
+Breaks: ipset-dev
+Depends: libmnl, libltdl
+Replaces: ipset-dev
+Description: Administration tool for kernel IP sets
+Filename: x86_64/ipset_7.3-1_x86_64.deb
+SHA1: 2ee2719ae68ab652f3f05549e3c699630ce56930
+SHA256: a5e8b27d126ebe656523245d191706641e4323312b605198007727c9ba94589b
+Size: 75080
+
+Package: iw
+Architecture: x86_64
+Installed-Size: 288
+Maintainer: Auxilus @Auxilus
+Version: 5.3-1
+Homepage: https://wireless.wiki.kernel.org/en/users/documentation/iw
+Depends: libnl
+Description: CLI configuration utility for wireless devices
+Filename: x86_64/iw_5.3-1_x86_64.deb
+SHA1: 7b4be62b5fde75807deceaf24e1189d7812f3c32
+SHA256: 3c2885e006b5a2800eae55a21b5204f11ca26c203e289b0dea90ff3bda020ec7
+Size: 79522
+
+Package: libaio-static
+Architecture: x86_64
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.112-2
+Homepage: http://lse.sourceforge.net/io/aio.html
+Depends: libaio (= 0.3.112-2)
+Description: Static libraries for libaio
+Filename: x86_64/libaio-static_0.3.112-2_x86_64.deb
+SHA1: 3eefd1d1217d06f0d54b07541a4cf490d91a5230
+SHA256: c920109c3271794e8912365fd1de97853a3eb244395e060d91691624908d591e
+Size: 3200
+
+Package: libaio
+Architecture: x86_64
+Installed-Size: 68
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.112-2
+Homepage: http://lse.sourceforge.net/io/aio.html
+Breaks: libaio-dev
+Replaces: libaio-dev
+Description: Linux kernel AIO access library
+Filename: x86_64/libaio_0.3.112-2_x86_64.deb
+SHA1: 05b2d36f6ead2a4c721c860a1dd4ea017593aa72
+SHA256: 17b128d9d0c228d94b4ef9bacd9ac6e30ea5ebb3a7643808641f709b972f974c
+Size: 5144
+
+Package: libccid
+Architecture: x86_64
+Installed-Size: 204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.31-1
+Homepage: https://ccid.apdu.fr/
+Depends: libpcsclite, libusb, flex
+Description: A generic USB CCID (Chip/Smart Card Interface Devices) driver and ICCD (Integrated Circuit(s) Card Devices).
+Filename: x86_64/libccid_1.4.31-1_x86_64.deb
+SHA1: 1d3bc768123a22f8eac45399ff644ba729ac09df
+SHA256: 9dd578e9fa8e85294a8ad2c0b3eb709a6971a73b8f4989db93e5f438efa062b3
+Size: 48118
+
+Package: libdevmapper
+Architecture: x86_64
+Installed-Size: 492
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.03.01-2
+Homepage: https://sourceware.org/lvm2/
+Breaks: libdevmapper-dev
+Depends: libandroid-support, libaio, readline
+Replaces: libdevmapper-dev
+Description: A device-mapper library from LVM2 package
+Filename: x86_64/libdevmapper_2.03.01-2_x86_64.deb
+SHA1: c00d3261ca534b4674d22f9ef90c31b87fa23612
+SHA256: 1c057b7af59b1396c9c6a4390cace291b40339005e95bc3590caf7628bba206d
+Size: 151128
+
+Package: libpcsclite-static
+Architecture: x86_64
+Installed-Size: 124
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.25-2
+Homepage: https://pcsclite.apdu.fr/
+Depends: libpcsclite (= 1.8.25-2)
+Description: Static libraries for libpcsclite
+Filename: x86_64/libpcsclite-static_1.8.25-2_x86_64.deb
+SHA1: c5c7e6aeed4e984fcbc769130fa69663d862ae7d
+SHA256: c6c0d4c351cedf312944186bed8ecd2e42f4e40a244c3299bebcd7de73fe2dc8
+Size: 22542
+
+Package: libpcsclite
+Architecture: x86_64
+Installed-Size: 264
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.25-2
+Homepage: https://pcsclite.apdu.fr/
+Breaks: libpcsclite-dev
+Depends: libusb, python2
+Replaces: libpcsclite-dev
+Description: Middleware to access a smart card using SCard API (PC/SC).
+Filename: x86_64/libpcsclite_1.8.25-2_x86_64.deb
+SHA1: 328aff3f6958f26436ee974d7bcd5f2d151fc04c
+SHA256: d766f06361f5e9facf5429066e5f33d31c3c044a667956dd50e0ac34175fffa2
+Size: 47360
+
+Package: libseccomp-static
+Architecture: x86_64
+Installed-Size: 436
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.4.1-2
+Homepage: https://github.com/seccomp/libseccomp
+Depends: libseccomp (= 2.4.1-2)
+Description: Static libraries for libseccomp
+Filename: x86_64/libseccomp-static_2.4.1-2_x86_64.deb
+SHA1: 875304454e6adf597ae8d4e89176c495681b21c3
+SHA256: 261439fb46b84302732e7ebb7c207c5c16762c4da1331f8203cd8efdc14fc569
+Size: 33060
+
+Package: libseccomp
+Architecture: x86_64
+Installed-Size: 784
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.4.1-2
+Homepage: https://github.com/seccomp/libseccomp
+Breaks: libseccomp-dev
+Replaces: libseccomp-dev
+Description: Enhanced seccomp library
+Filename: x86_64/libseccomp_2.4.1-2_x86_64.deb
+SHA1: 423614d11a8d8c1005c72a3e34b4936bd03ccd7e
+SHA256: ca6e778a040ef1f0265ab682786650828c3e0668d79d1defcf23442cfd8b26fa
+Size: 72352
+
+Package: libx86emu
+Architecture: x86_64
+Installed-Size: 216
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4-1
+Homepage: https://github.com/wfeldt/libx86emu
+Breaks: libx86emu-dev
+Replaces: libx86emu-dev
+Description: x86 emulation library
+Filename: x86_64/libx86emu_2.4-1_x86_64.deb
+SHA1: e29752504ea48501df8b5bf83e7420a3f730aa1d
+SHA256: aeca5614773eeae043b1af08ae721b8d2a4f9024d4dc7bd68d41d1477506e91c
+Size: 46190
+
+Package: lxc-static
+Architecture: x86_64
+Installed-Size: 4416
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.2.1-1
+Homepage: http://linuxcontainers.org/
+Depends: lxc (= 3.2.1-1)
+Description: Static libraries for lxc
+Filename: x86_64/lxc-static_3.2.1-1_x86_64.deb
+SHA1: 6e9b0d3bc7598c8a30b503d33333f31253554a75
+SHA256: 7ebdc58e66bd27920e2ca3abc64b4bce77940e0feaaeb1d1e9d84fe820192340
+Size: 789608
+
+Package: lxc
+Architecture: x86_64
+Installed-Size: 2340
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.2.1-1
+Homepage: http://linuxcontainers.org/
+Breaks: lxc-dev
+Depends: gnupg, libcap, libseccomp, rsync, wget
+Replaces: lxc-dev
+Description: Linux Containers
+Filename: x86_64/lxc_3.2.1-1_x86_64.deb
+SHA1: 1ed25780f70570b09bbba3e69b72d26f358dd1c6
+SHA256: ac1219ea12012cf50b49f746ef938270d6164f3a22ddf7cf4597be555ddc4193
+Size: 438380
+
+Package: macchanger
+Architecture: x86_64
+Installed-Size: 660
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.0-1
+Homepage: https://github.com/alobbs/macchanger
+Description: Utility that makes the maniputation of MAC addresses of network interfaces easier
+Filename: x86_64/macchanger_1.7.0-1_x86_64.deb
+SHA1: 177ae928c3259005865c9e578264d5124e25d75d
+SHA256: 64ff9e6fe6c96c599aa778359673a9c4fb8f2801d56af122d06119b67ebb0ec2
+Size: 181636
+
+Package: mtr
+Architecture: x86_64
+Installed-Size: 180
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.93-1
+Homepage: https://github.com/traviscross/mtr
+Depends: ncurses
+Description: Network diagnostic tool
+Filename: x86_64/mtr_0.93-1_x86_64.deb
+SHA1: 2c9381175d8ce0d21ee1b4a27cccd2b18382427e
+SHA256: ea6a914e989547e8e6d45fdbb42ddc9fa03c16d50f229c18e16c9884a70eea5b
+Size: 47514
+
+Package: nethogs
+Architecture: x86_64
+Installed-Size: 152
+Maintainer: Pierre Rudloff <contact@rudloff.pro>
+Version: 0.8.5-git-3
+Homepage: https://github.com/raboof/nethogs
+Depends: libc++, ncurses, libpcap
+Description: Net top tool grouping bandwidth per process
+Filename: x86_64/nethogs_0.8.5-git-3_x86_64.deb
+SHA1: 7e648d9acca11227e680703e2f5f1bbb147d5a46
+SHA256: d1b2ee89fb333aa0f5f8da708b7daf6a6e39221e2de5ada645e6c9fba9716a6e
+Size: 39502
+
+Package: openvpn
+Architecture: x86_64
+Installed-Size: 936
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.8-1
+Homepage: https://openvpn.net
+Depends: liblz4, liblzo, net-tools, openssl
+Description: An easy-to-use, robust, and highly configurable VPN (Virtual Private Network)
+Filename: x86_64/openvpn_2.4.8-1_x86_64.deb
+SHA1: c7c444d71ad9085bc371725b07c124da8d89d726
+SHA256: f13de1b69301d122d7992b05f187420df41b67152f2e9308139a6a7054ad1f24
+Size: 327108
+
+Package: pciutils
+Architecture: x86_64
+Installed-Size: 488
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.2-1
+Homepage: https://mj.ucw.cz/sw/pciutils/
+Depends: zlib
+Description: a collection of programs for inspecting and manipulating configuration of PCI devices
+Filename: x86_64/pciutils_3.6.2-1_x86_64.deb
+SHA1: b36f4ed0d9b7446b0e8ee25361b61215be7db913
+SHA256: 09d9e8e181aaf7e31727d1917cb0b4c3fcb23121a2e0ec91acbdd10b6968c8a3
+Size: 324072
+
+Package: pcscd
+Architecture: x86_64
+Installed-Size: 160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.25-2
+Homepage: https://pcsclite.apdu.fr/
+Depends: libpcsclite (= 1.8.25-2)
+Description: Middleware to access a smart card using SCard API (PC/SC). (daemon side)
+Filename: x86_64/pcscd_1.8.25-2_x86_64.deb
+SHA1: aae4fab253abdb2298e6a3f77e50ec9d3f5d8fc1
+SHA256: 50412cff704ff70a003e0108af9e8c813b689d7735726863d5238ba7a095ad0c
+Size: 44926
+
+Package: runc
+Architecture: x86_64
+Installed-Size: 9216
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.0-rc8-2
+Homepage: https://www.opencontainers.org/
+Depends: libseccomp
+Description: A tool for spawning and running containers according to the OCI specification
+Filename: x86_64/runc_1.0.0-rc8-2_x86_64.deb
+SHA1: f483c5f6c612e79c2209fb9fbbd42cd5a71fa9f8
+SHA256: 291a64c3c8c0661cde1bccb949a7c4b04ed7c0370d4e82c81b3271dbc1ad79bd
+Size: 2269008
+
+Package: tcpdump
+Architecture: x86_64
+Installed-Size: 1016
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.9.3-1
+Homepage: https://www.tcpdump.org/
+Depends: openssl, libpcap
+Description: A powerful command-line packet analyzer
+Filename: x86_64/tcpdump_4.9.3-1_x86_64.deb
+SHA1: 0bb3f656d66810010d0f218ba7eaac1a10f83a0c
+SHA256: c93356f268790c7e3697464a80d8df3357599ebd7891bc2970ce6d0bf11ea897
+Size: 317788
+
+Package: tinc
+Architecture: x86_64
+Installed-Size: 332
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.36-2
+Homepage: https://www.tinc-vpn.org/
+Depends: liblzo, openssl, zlib
+Description: VPN daemon
+Filename: x86_64/tinc_1.0.36-2_x86_64.deb
+SHA1: c67242c1aa1cc6abc1d5fd151160eca235b0f398
+SHA256: d54dea9633cdb00790d31cf8db7a134b9b876086fa3c175f037e176c2f8da7d2
+Size: 98920
+
+Package: tshark
+Architecture: x86_64
+Installed-Size: 102436
+Maintainer: Auxilus @Auxilus
+Version: 3.0.6-1
+Homepage: https://www.wireshark.org/
+Breaks: tshark-dev
+Depends: glib, libgpg-error, libgcrypt, libnl, libpcap, libgnutls, openssl, libiconv, libcap
+Replaces: tshark-dev
+Description: Network protocol analyzer and sniffer
+Filename: x86_64/tshark_3.0.6-1_x86_64.deb
+SHA1: f3599b971dfa647798b9ffc850259a9c9fd4421c
+SHA256: a0aec7b805157b3318bb906618649f76291debfedc5e29e29ceb54733b6a8981
+Size: 16421056
+
+Package: wavemon
+Architecture: x86_64
+Installed-Size: 208
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.9.0-3
+Homepage: https://github.com/uoaerg/wavemon
+Depends: libcap, libnl, ncurses
+Description: Ncurses-based monitoring application for wireless network devices
+Filename: x86_64/wavemon_0.9.0-3_x86_64.deb
+SHA1: 5c3a5e1433d9dcaaa95b57a7e329d12abb67247f
+SHA256: c7eee194ac44efcc42662dc4495a68a9ba8707f9129b98f7326448b5a0e1c749
+Size: 53450
+
+Package: wireless-tools-static
+Architecture: x86_64
+Installed-Size: 72
+Maintainer: Fredrik Fornwall @fornwall
+Version: 30pre9-3
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools
+Depends: wireless-tools (= 30pre9-3)
+Description: Static libraries for wireless-tools
+Filename: x86_64/wireless-tools-static_30pre9-3_x86_64.deb
+SHA1: bc553243c8db73794c1002669c28eac3f5e37333
+SHA256: 89e26b9a75c9a146506f8d1083aebbc08e3fb59388dd6ddd73f2b2d9d2497cb9
+Size: 12768
+
+Package: wireless-tools
+Architecture: x86_64
+Installed-Size: 464
+Maintainer: Fredrik Fornwall @fornwall
+Version: 30pre9-3
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools
+Breaks: wireless-tools-dev
+Replaces: wireless-tools-dev
+Description: A set of tools allowing to manipulate the Wireless Extensions
+Filename: x86_64/wireless-tools_30pre9-3_x86_64.deb
+SHA1: c6668558dfd9c03bc9d938cb468f343111972768
+SHA256: 43504f2bf67596127727c9e2c409a9e6fab7e9a906771cc5df5eb929f5dbe989
+Size: 94724
+
