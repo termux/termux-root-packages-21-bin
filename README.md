@@ -9,11 +9,11 @@ To be able to install these packages in termux for android 5 you need
 to edit `$PREFIX/etc/apt/sources.list.d/science.list` and change from:
 
 ```
-deb https://dl.bintray.com/grimler/termux-root-packages-21 science stable
+deb https://dl.bintray.com/grimler/termux-root-packages-21 root stable
 ```
 
 to
 
 ```
-deb https://termux.com/termux-root-packages-21-bin science stable
+deb https://termux.com/termux-root-packages-21-bin root stable
 ```
