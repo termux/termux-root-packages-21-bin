@@ -7,9 +7,11 @@ Homepage: https://www.aircrack-ng.org/
 Depends: libc++, libnl, openssl, libpcap, pciutils
 Description: WiFi security auditing tools suite
 Filename: i686/aircrack-ng_1.2-rc4-6_i686.deb
+Size: 256640
+MD5Sum: 1b2cd679052f7908db96835b49dabbb8
 SHA1: ca30cbba1169c6cec2bb2c78cdfabd755ee45bcc
 SHA256: 89e11c90e56bf3aa6479f8c54f875773be5ff00d00d4a4ab8148a9047c66edcd
-Size: 256640
+SHA512: 9760e1aa511a81a8db65fb719f5c55a2fa1f454cfa080fc456d150ab8ade54fab01c3b07df4d71eaf8939cae813f03f35bf5f02aae26fe630ce898beac49314c
 
 Package: arp-scan
 Architecture: i686
@@ -20,9 +22,11 @@ Homepage: https://github.com/royhills/arp-scan
 Depends: libpcap
 Description: arp-scan is a command-line tool for system discovery and fingerprinting. It constructs and sends ARP requests to the specified IP addresses, and displays any responses that are received.
 Filename: i686/arp-scan_1.9.6-1_i686.deb
+Size: 326056
+MD5Sum: db5d8d0911c9069bbbd1e6e6665c6826
 SHA1: 4eacd5119a70699e9cabde231273366fa31a8474
 SHA256: aac8cbbf87f9bfefaae642cf8a47a1b3054b75054bd800be7236ba90c4548dad
-Size: 326056
+SHA512: cae8ca2da7214d137805acc68a42eed049fea0af4b3f70f74c0268f25133ce30ca056268c207fb60f2d96ebdd72e99301e481b2f938d916bff2b3fe5c12be278
 
 Package: bettercap
 Architecture: i686
@@ -33,9 +37,11 @@ Homepage: https://www.bettercap.org
 Depends: libpcap, libusb
 Description: The Swiss Army knife for 802.11, BLE and Ethernet networks reconnaissance and MITM attacks
 Filename: i686/bettercap_2.25-1_i686.deb
+Size: 5948746
+MD5Sum: e64e495c8803b83b38883f624cf1fc13
 SHA1: d4e36abc47db01bcc735c2a1cfa817d17aca6248
 SHA256: d6986355344035c18eb67e193b8d6bc1993803e7a457830c3669aa825a6187de
-Size: 5948746
+SHA512: 517c04679dbe3662a7f19c80bd2d0feb8536ba6a81dffc54f05be03df7faa861c632026e67da8b8df2b52006d74d3cc452519e36d264c3402855d1994934d3a9
 
 Package: chroot
 Architecture: i686
@@ -45,9 +51,26 @@ Version: 8.31-1
 Homepage: https://www.gnu.org/software/coreutils/
 Description: Chroot utility from the Coreutils
 Filename: i686/chroot_8.31-1_i686.deb
+Size: 30604
+MD5Sum: 7911cd265e1d0e90eb0a5d5834b6e5d1
 SHA1: 52775badc1910225400232a680e8c78992c570c2
 SHA256: 5c565c23258997e493ba1c33e19419ab252482cec6962163ee116938094700bc
-Size: 30604
+SHA512: 180bb0284329dafb182bda057f220b7da2358b33d461d50e443ca1aa7ef6d4d42622d84800e6b9b81999949d80e381a38181da49e5d812da850e70fed2ddae5c
+
+Package: cryptsetup-static
+Architecture: i686
+Installed-Size: 644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.1-1
+Homepage: https://gitlab.com/cryptsetup/cryptsetup/
+Depends: cryptsetup (= 2.2.1-1)
+Description: Static libraries for cryptsetup
+Filename: i686/cryptsetup-static_2.2.1-1_i686.deb
+Size: 184792
+MD5Sum: 500c7ae00d02f4b83dda8caebd9f4775
+SHA1: 0a76a8ac57284f895eeb5803f3fadf3d1a01895c
+SHA256: 9e16cd4b2d88691e1ee33ad049553ddf50f6cdabf7da73c1045f726b409e1280
+SHA512: 4c731a068fcec96959ce9d163e6483a6174b30c9a732fdd355767b280f23c0725fc0c0e4312554c2699b0d91eb0af88659d99d5e0e5272e5a00aa69a2e1d3539
 
 Package: cryptsetup
 Architecture: i686
@@ -60,22 +83,11 @@ Depends: json-c, libdevmapper, libgcrypt, libpopt, libuuid, util-linux, openssl
 Replaces: cryptsetup-dev
 Description: Userspace setup tool for transparent encryption of block devices using dm-crypt
 Filename: i686/cryptsetup_2.2.1-1_i686.deb
+Size: 249134
+MD5Sum: f8db6724c2f80d89536a738381e02291
 SHA1: 358218e4f8f005516b985d99e0f2806b1b68268e
 SHA256: 3312fec95e379ee1a659e639deec7a71064acd7bbf387121a746072985a07988
-Size: 249134
-
-Package: cryptsetup-static
-Architecture: i686
-Installed-Size: 644
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.1-1
-Homepage: https://gitlab.com/cryptsetup/cryptsetup/
-Depends: cryptsetup (= 2.2.1-1)
-Description: Static libraries for cryptsetup
-Filename: i686/cryptsetup-static_2.2.1-1_i686.deb
-SHA1: 0a76a8ac57284f895eeb5803f3fadf3d1a01895c
-SHA256: 9e16cd4b2d88691e1ee33ad049553ddf50f6cdabf7da73c1045f726b409e1280
-Size: 184792
+SHA512: ff7977b56cd536c845e4804901b40008492c16a4cdfacd17471b3075f7aad4a10e241a660014a1f3dc155ba5cb4ffb07aa23c770774a5b3c5c8975e4fbf5f33d
 
 Package: dnsmasq
 Architecture: i686
@@ -85,9 +97,11 @@ Version: 2.80-1
 Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
 Description: Dnsmasq provides network infrastructure for small networks
 Filename: i686/dnsmasq_2.80-1_i686.deb
+Size: 159788
+MD5Sum: b9ce00587c36f0b5bc66cb3530896ea3
 SHA1: 9d8f8e6023cd37698da316806bf876bc2d2d41c3
 SHA256: b186a18a45a4675016fd605b8f808110109fbafff63cea21c59f55431d1f0750
-Size: 159788
+SHA512: 092266483879b09f363c42f95c44a249163aebe03c7fc4564a3aebda83adf99b38ea4a21b6e03d6eed3c2d32fd0f31f2d7eb5c758b15627525a8fabeeac766cd
 
 Package: ethtool
 Architecture: i686
@@ -98,9 +112,11 @@ Homepage: https://mirrors.edge.kernel.org/pub/software/network/ethtool/
 Depends: libnl
 Description: standard Linux utility for controlling network drivers and hardware, particularly for wired Ethernet devices
 Filename: i686/ethtool_5.3-1_i686.deb
+Size: 100812
+MD5Sum: 633cbbf79406cbfeec24a5157892edd3
 SHA1: ee0c5fec4a0fddf84cd31d4dfd7f4f0659b97028
 SHA256: 59d794f8063eb7f6fda8d3fed738b775ac26ef5b1e59caf0b39e35bef275c44b
-Size: 100812
+SHA512: 63b3618ef56e7090e2f743d2d85e54b34855956bab663c8b6396e3d7d6e8e10423f01497d6edd108331339015626c6184f0916574a53bcfc9e5f113ff1fb31bf
 
 Package: frida-server
 Architecture: i686
@@ -111,9 +127,11 @@ Homepage: https://www.frida.re/
 Depends: libiconv
 Description: Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
 Filename: i686/frida-server_12.7.24_i686.deb
+Size: 13676190
+MD5Sum: 93f8165cf46a44f511c98314ad9eef87
 SHA1: c91d26e27f2939b30533e36eebed4e7178170c13
 SHA256: ad3cf010e46306633967d20bac347ca1a390820791193657ae48341568602037
-Size: 13676190
+SHA512: f86a9e70582142aa2b3a611b328cf896f4a4dcc86619737323261fe675eb67869c5a28995e480790e2bbc0100b7c76ade5c110d53fa8cbe88f8ede75f4747614
 
 Package: gptfdisk
 Architecture: i686
@@ -124,9 +142,11 @@ Homepage: https://www.rodsbooks.com/gdisk/
 Depends: libpopt, libuuid, ncurses
 Description: A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
 Filename: i686/gptfdisk_1.0.4-1_i686.deb
+Size: 163772
+MD5Sum: 2fc34a924260e3cc9f917ac87cbbd444
 SHA1: e4d8be30c9d0532f0cd370698dfdddd041956004
 SHA256: e7cbeca6407f5777250073bdc6d266a904b5de0cec38d78a001654200cf969e1
-Size: 163772
+SHA512: 1f6b1c023b6370b140022854bdae417ef368b783f413a0c3e4992cc1ee8b3177607e3d351dd045879a37696a83460991f7d026e4110e146de0130b944d36b6ed
 
 Package: hping3
 Architecture: i686
@@ -137,22 +157,11 @@ Homepage: http://www.hping.org/
 Depends: libandroid-shmem, libpcap, tcl
 Description: hping is a command-line oriented TCP/IP packet assembler/analyzer.
 Filename: i686/hping3_3.0.0-1_i686.deb
+Size: 61768
+MD5Sum: 741f09f33e7a1929d018bf98c3c0fbab
 SHA1: 630d524483d990b100cf9396c48168e280fdb9ba
 SHA256: 2bb6360a805a5bb2e7de868a2212c30c2c4245e2150989d6a2f8cece2b0291a0
-Size: 61768
-
-Package: hw-probe
-Architecture: all
-Installed-Size: 252
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.4-1
-Homepage: https://github.com/linuxhw/hw-probe
-Depends: curl, hwinfo, net-tools, perl
-Description: Tool to probe for hardware and check its operability
-Filename: all/hw-probe_1.4-1_all.deb
-SHA1: 1857b1a55dbbe74bfe7dbc38403082232ef14cd3
-SHA256: 8f2a2caf7a7fbd2467ecb4c5faadc24fb33730fcc013eef34fe32284caaa65a6
-Size: 40056
+SHA512: a3f6cd036410ef85f7e7b638f21a7e3e0b01683dbda32a37fefac294c42a62ba364723e331cc154b70f1c3f25b8bab210ff1d39dc81be720e401c5fed67c22e4
 
 Package: hwinfo
 Architecture: i686
@@ -165,9 +174,11 @@ Depends: libandroid-shmem, libuuid, libx86emu
 Replaces: hwinfo-dev
 Description: Hardware detection tool from openSUSE
 Filename: i686/hwinfo_21.67-1_i686.deb
+Size: 784932
+MD5Sum: 387ef06b0243565570f1f850329667b8
 SHA1: 305aa4a02bd9c9d2c992597846318e03bd4a950f
 SHA256: 190a129412b095276808bd762fe073d61bef0560b6964092163357b5acca24f3
-Size: 784932
+SHA512: 9c9e2225ee8d5291a06bdea5ffe6c4dc0222f25684073d3158e712c737df62f30c1839a53f92748e394843ef987cfaa90c2796faf8e0df6c6600f0c9ced00a76
 
 Package: iodine
 Architecture: i686
@@ -178,9 +189,26 @@ Homepage: http://code.kryo.se/iodine
 Depends: net-tools, zlib
 Description: Tunnel IPv4 data through a DNS server
 Filename: i686/iodine_0.7.0-7_i686.deb
+Size: 41626
+MD5Sum: 61db4ba2968b35ae829b1ebe2087b15f
 SHA1: a8528e18ae4401563ba75efbe746a779035d47cb
 SHA256: 3c7980dc41f9559a873a6b9ee8efc01c78994106020e9925d57471d3450c9310
-Size: 41626
+SHA512: c269cd02677ce0759b463239e7453b41dba804a6533aa614c8023ccc8e7977e65010047e5705e305138ff19fd53384f600cd0fbf561be8f08585eb9cb5a94693
+
+Package: ipset-static
+Architecture: i686
+Installed-Size: 228
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 7.3-1
+Homepage: http://ipset.netfilter.org
+Depends: ipset (= 7.3-1)
+Description: Static libraries for ipset
+Filename: i686/ipset-static_7.3-1_i686.deb
+Size: 42268
+MD5Sum: 44bf3179e51c9d010b3db5ff6bb93447
+SHA1: 8743c02201262eeddf460fc4c8f4275639b2355b
+SHA256: 0143756c774523c457f3874a446b1d276ca9e9ebd1f20d4ba52d36e1d5bd33d1
+SHA512: c8c924403238ba77a56e46f794e25f4087c8232a9714a9d390dc17676caf61d521b6284c6ab62774e4a0a21cb5b93210c4578e02b64b6525c008838ef8e41296
 
 Package: ipset
 Architecture: i686
@@ -193,22 +221,11 @@ Depends: libmnl, libltdl
 Replaces: ipset-dev
 Description: Administration tool for kernel IP sets
 Filename: i686/ipset_7.3-1_i686.deb
+Size: 67280
+MD5Sum: 79054dfd81dfa9926f597464af787beb
 SHA1: 9a96780b9df04b161ee594ea5df748685a154792
 SHA256: 61f29ad1ced57ce0f17c6378a4b1ec9e0c5a125800e124929817d57bf458b224
-Size: 67280
-
-Package: ipset-static
-Architecture: i686
-Installed-Size: 228
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 7.3-1
-Homepage: http://ipset.netfilter.org
-Depends: ipset (= 7.3-1)
-Description: Static libraries for ipset
-Filename: i686/ipset-static_7.3-1_i686.deb
-SHA1: 8743c02201262eeddf460fc4c8f4275639b2355b
-SHA256: 0143756c774523c457f3874a446b1d276ca9e9ebd1f20d4ba52d36e1d5bd33d1
-Size: 42268
+SHA512: 4286373bf35ec929d611a9c7725e300d65c84fb8b0a6364579300af46f9af7174df457cae8c45523acbc5ccc18f510fa6df3e66584e380d3a50a246b570456c3
 
 Package: iw
 Architecture: i686
@@ -219,9 +236,26 @@ Homepage: https://wireless.wiki.kernel.org/en/users/documentation/iw
 Depends: libnl
 Description: CLI configuration utility for wireless devices
 Filename: i686/iw_5.3-1_i686.deb
+Size: 71116
+MD5Sum: eee471ff001171be1d8c094d14c44fff
 SHA1: 8ed88476cffdcdc4613948d4cfd0c7b9cdd76637
 SHA256: 980f82ae68da6e06d873e407d4fddae27c7090d687a6e5089eaabc5cdee9976e
-Size: 71116
+SHA512: d03db5820f86695ea2ba2677ba09ff50b66a0fbc022abeb65d6491b78ebd2ebc81f709f8372efb9d51038ca605af5686db6b8748d73bf90ce354a3af0372db4a
+
+Package: libaio-static
+Architecture: i686
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.112-2
+Homepage: http://lse.sourceforge.net/io/aio.html
+Depends: libaio (= 0.3.112-2)
+Description: Static libraries for libaio
+Filename: i686/libaio-static_0.3.112-2_i686.deb
+Size: 2776
+MD5Sum: 83a569968256ff30789994c38af0ca2a
+SHA1: bb13e2f574d35e1eaa6abc31dea886d738c9a648
+SHA256: b5c5f731dac8683d454827bf346a6e8a2b341e7471356c95cf59dabdb4b3ee59
+SHA512: d213a0e7bbab1a246ef24444371bc704f64cd5899edce7a25e81e8a0a8646b81bda0348dc4a9c84d14ddec10d6a2a930afef31cc2af41deeee5b69b8d505e94c
 
 Package: libaio
 Architecture: i686
@@ -233,22 +267,11 @@ Breaks: libaio-dev
 Replaces: libaio-dev
 Description: Linux kernel AIO access library
 Filename: i686/libaio_0.3.112-2_i686.deb
+Size: 4846
+MD5Sum: e8e0201c8bb94ebfece1049163f88585
 SHA1: e6fe664eabe91ed36206d9e5f18cd7a440a8f92d
 SHA256: 6ad074f3c73bb29e13f3ade2ca16922679d6f3beb99377c5b75a8d832567a88d
-Size: 4846
-
-Package: libaio-static
-Architecture: i686
-Installed-Size: 44
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.112-2
-Homepage: http://lse.sourceforge.net/io/aio.html
-Depends: libaio (= 0.3.112-2)
-Description: Static libraries for libaio
-Filename: i686/libaio-static_0.3.112-2_i686.deb
-SHA1: bb13e2f574d35e1eaa6abc31dea886d738c9a648
-SHA256: b5c5f731dac8683d454827bf346a6e8a2b341e7471356c95cf59dabdb4b3ee59
-Size: 2776
+SHA512: 2e408cd33bbd0b8fbe1855f65ae06cee0772d61bd1bb81514a8692670eb7ce809a191dbb263e777fd6b40bca4d51aaea1297e2178185752c2bdbda554e33905c
 
 Package: libccid
 Architecture: i686
@@ -259,9 +282,11 @@ Homepage: https://ccid.apdu.fr/
 Depends: libpcsclite, libusb, flex
 Description: A generic USB CCID (Chip/Smart Card Interface Devices) driver and ICCD (Integrated Circuit(s) Card Devices).
 Filename: i686/libccid_1.4.31-1_i686.deb
+Size: 43000
+MD5Sum: 758b308e9897622c361565d8c3bff2c3
 SHA1: b159b97487db045812619c96ec63e023c62fd637
 SHA256: 740fd9ab11b196b812a9609a070280b4733d7bf0a33e2271f98111758fb967a9
-Size: 43000
+SHA512: 6c654039d7fb27c5e442038c4bdd517bd83a2acdfe7cc8162d54320f8c0396539192193655265a5abe3ac444ca634e15721060f9d368d01328aa97c5384b1930
 
 Package: libdevmapper
 Architecture: i686
@@ -274,9 +299,26 @@ Depends: libandroid-support, libaio, readline
 Replaces: libdevmapper-dev
 Description: A device-mapper library from LVM2 package
 Filename: i686/libdevmapper_2.03.01-2_i686.deb
+Size: 132390
+MD5Sum: 9f33115d2c67e0e5e6a8a25fee6a5187
 SHA1: 21ea71c3a2ed68d85f583b351904824bc78d77cc
 SHA256: ee5a0fcef9ebf78301177f2e3d27d5663d1943cd0e3af79e20476225ac67a183
-Size: 132390
+SHA512: 358b7110f616329046f969ce98e2bcbcfb964ca50e12f15526e5b5a11d16ef05fcdafba6eae49846666eabab28c979e8149e6a706d5a73f844c531c2fd6f8400
+
+Package: libpcsclite-static
+Architecture: i686
+Installed-Size: 96
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.25-2
+Homepage: https://pcsclite.apdu.fr/
+Depends: libpcsclite (= 1.8.25-2)
+Description: Static libraries for libpcsclite
+Filename: i686/libpcsclite-static_1.8.25-2_i686.deb
+Size: 19930
+MD5Sum: 91281d80cca9079435e0985af87e9dfb
+SHA1: d53b6f47c362dcae565e04f2a06f32905bedb85b
+SHA256: 5024dc87e183a4a12d831bb73b5cc2bd4b4487cd9967a76b462420dac86a9188
+SHA512: bd83d3538093d3cdd06e253525a392d1efc3845511cff7d765498718d4e91fe0c269835794d07708f5071bff23a3f6853f6381c828d967faa1a34ae4e8b883a7
 
 Package: libpcsclite
 Architecture: i686
@@ -289,22 +331,26 @@ Depends: libusb, python2
 Replaces: libpcsclite-dev
 Description: Middleware to access a smart card using SCard API (PC/SC).
 Filename: i686/libpcsclite_1.8.25-2_i686.deb
+Size: 44454
+MD5Sum: 53f72e526a62d1031d2f672f5986930d
 SHA1: 9abda1bd383f738332e976158316cb507042ede9
 SHA256: 8c8b68ca7b60832768f4e1c8953a200d77b16214c3afccf5e29f8b00120ec53d
-Size: 44454
+SHA512: da971721e3602efd6e7e57461d7f898400848fa172e0fe9b817782de6bd68326db763736e5e8682ccf87007d2eee26b5e1ce376625b3b1bb45adc333da16d15e
 
-Package: libpcsclite-static
+Package: libseccomp-static
 Architecture: i686
-Installed-Size: 96
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.25-2
-Homepage: https://pcsclite.apdu.fr/
-Depends: libpcsclite (= 1.8.25-2)
-Description: Static libraries for libpcsclite
-Filename: i686/libpcsclite-static_1.8.25-2_i686.deb
-SHA1: d53b6f47c362dcae565e04f2a06f32905bedb85b
-SHA256: 5024dc87e183a4a12d831bb73b5cc2bd4b4487cd9967a76b462420dac86a9188
-Size: 19930
+Installed-Size: 416
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.4.1-2
+Homepage: https://github.com/seccomp/libseccomp
+Depends: libseccomp (= 2.4.1-2)
+Description: Static libraries for libseccomp
+Filename: i686/libseccomp-static_2.4.1-2_i686.deb
+Size: 34904
+MD5Sum: 59216124f89497df72711b45461b1e51
+SHA1: 745a1871e1e4acbd0707d8571e9bdddee68024ae
+SHA256: 48302c938817ecdd7dcde7c41895ea2a0abfa74cfe4f55dc4b7cba1f4c4a0d40
+SHA512: fb9b3955c7b5f5eb337a66e62c28089e87da4d8dfd2f48c2f69b7599466adcf4aca7514cd060d7f56b4b25c2b297ce8c272c7acf222f20080852967dc5504321
 
 Package: libseccomp
 Architecture: i686
@@ -316,22 +362,11 @@ Breaks: libseccomp-dev
 Replaces: libseccomp-dev
 Description: Enhanced seccomp library
 Filename: i686/libseccomp_2.4.1-2_i686.deb
+Size: 62572
+MD5Sum: 8980b30d3f5bd637b34a4a6a5048780f
 SHA1: d6e0b5772f923f6a55e0f8325af6fe8bb02fbcc2
 SHA256: c67c7e6ac8b0bba5e9eedefc76542cd0ef435356ccd7a85a63559cb53e423fe2
-Size: 62572
-
-Package: libseccomp-static
-Architecture: i686
-Installed-Size: 416
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.4.1-2
-Homepage: https://github.com/seccomp/libseccomp
-Depends: libseccomp (= 2.4.1-2)
-Description: Static libraries for libseccomp
-Filename: i686/libseccomp-static_2.4.1-2_i686.deb
-SHA1: 745a1871e1e4acbd0707d8571e9bdddee68024ae
-SHA256: 48302c938817ecdd7dcde7c41895ea2a0abfa74cfe4f55dc4b7cba1f4c4a0d40
-Size: 34904
+SHA512: 8f57eccff51f1058fb16311e7df447997d706106651773a8b9b1cd6fc4fb33f81a5794ab42bde29aa609939e054dea7aea93de6c3ae9cb0e8a0c18ed4749ddf8
 
 Package: libx86emu
 Architecture: i686
@@ -343,9 +378,26 @@ Breaks: libx86emu-dev
 Replaces: libx86emu-dev
 Description: x86 emulation library
 Filename: i686/libx86emu_2.4-1_i686.deb
+Size: 43078
+MD5Sum: 323c74c518ca16703b15cd3d9de75e9d
 SHA1: 854abef4102bd3831b2e20699effa5ec85a9ddf7
 SHA256: 0b8688bc1574a5f8960dd3e93ef97db53404f921f4ae320afcb80ee96f30b79f
-Size: 43078
+SHA512: 45d5279d54ece3c98cdcbe1a3b813ab3d06d38e8afa53ccb70f308f1d7c0281823ba9254caefc692726d9fd830bf386bb122645a5c1c6306f56032524e4524ff
+
+Package: lxc-static
+Architecture: i686
+Installed-Size: 3088
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.2.1-1
+Homepage: http://linuxcontainers.org/
+Depends: lxc (= 3.2.1-1)
+Description: Static libraries for lxc
+Filename: i686/lxc-static_3.2.1-1_i686.deb
+Size: 765110
+MD5Sum: c5f3794cbc3b13c5f6921cb999caa100
+SHA1: fba028a7fc820cee910c3824f84f28d515b1c20a
+SHA256: 5d6cd42ea11545794a78cb0c791f7ed323deeaa58f88f8854bac353f0de7da23
+SHA512: 1c21e20b4462ce2a7f1ffab990e78c40436f8af349d26ba39632cc1e97c2333ac7f8c0db71a2110424dc03a18fd33a5c3beabfdeaf7058c3eb831f860042270d
 
 Package: lxc
 Architecture: i686
@@ -358,22 +410,11 @@ Depends: gnupg, libcap, libseccomp, rsync, wget
 Replaces: lxc-dev
 Description: Linux Containers
 Filename: i686/lxc_3.2.1-1_i686.deb
+Size: 417550
+MD5Sum: a32d69b938958c578cae74ab6b64d70f
 SHA1: d5efd57eac336162f4b2442d0afae6d61adc40e4
 SHA256: 0efdb20313a0c1824bf5fad8623cc00975aefae1b95b90e98ab6842e968033c7
-Size: 417550
-
-Package: lxc-static
-Architecture: i686
-Installed-Size: 3088
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 3.2.1-1
-Homepage: http://linuxcontainers.org/
-Depends: lxc (= 3.2.1-1)
-Description: Static libraries for lxc
-Filename: i686/lxc-static_3.2.1-1_i686.deb
-SHA1: fba028a7fc820cee910c3824f84f28d515b1c20a
-SHA256: 5d6cd42ea11545794a78cb0c791f7ed323deeaa58f88f8854bac353f0de7da23
-Size: 765110
+SHA512: 93474cd0564f8fd1218b29a8b0f9f17bf5989a94332bb40f807b512ff92f27831e742021596846bbbb196d8acd63d98661966386c2fb9e2a9e1f6b2b204c76c1
 
 Package: macchanger
 Architecture: i686
@@ -383,9 +424,11 @@ Version: 1.7.0-1
 Homepage: https://github.com/alobbs/macchanger
 Description: Utility that makes the maniputation of MAC addresses of network interfaces easier
 Filename: i686/macchanger_1.7.0-1_i686.deb
+Size: 181056
+MD5Sum: a965002f125d9844c6d0d0620b317204
 SHA1: a19064c7467a0126e727ef773d8858ffd8d8efa0
 SHA256: 5a0dd0cd7958b07c27050769c1739748b02864450f0702eb405e4c35a7a61df4
-Size: 181056
+SHA512: 048befd2517ce9d84cb3b52142836e172ffe1000fb58f5c5a352f76971aa8e244067f2609d6a0d80405a286a6303af9f9458ca531fc0a8064788dfce0cc702e9
 
 Package: mtr
 Architecture: i686
@@ -396,9 +439,11 @@ Homepage: https://github.com/traviscross/mtr
 Depends: ncurses
 Description: Network diagnostic tool
 Filename: i686/mtr_0.93-1_i686.deb
+Size: 43324
+MD5Sum: a325289f1ace6dffc94115c924147ff2
 SHA1: 1b6ae05e08e783f19823168eb5c2b9c061eb8ac5
 SHA256: 894fe2fd4e796387a884f31d15ca7a79b264b76b01288c25c7c6c28ec330ef59
-Size: 43324
+SHA512: 7a74b42c5169ff263b80c24a055f19e3f8a5185c1f0d929da95c865413e9a958b46cdb6f061eac005b6216228d75ee43030ed83f0e83d75b957e920faddc1951
 
 Package: nethogs
 Architecture: i686
@@ -409,9 +454,11 @@ Homepage: https://github.com/raboof/nethogs
 Depends: libc++, ncurses, libpcap
 Description: Net top tool grouping bandwidth per process
 Filename: i686/nethogs_0.8.5-git-3_i686.deb
+Size: 38216
+MD5Sum: 7f8ef4b03e5cd88446a0c6feac9c0e47
 SHA1: 68a35ba57fa85140ca53c44cd2c68ba85c46e0b7
 SHA256: 2aade99a3e361930e3038899f3bdbc47b284116c918e2c543009877551c39233
-Size: 38216
+SHA512: 13bdc433a4285605e9c9a36092fe1b54aa78797ca29e0dbe840a3de6cffeeb3e9d87c65f4c7c75b6463413baff9622ea2efdfee3376c290257cf85d4e0f16b19
 
 Package: openvpn
 Architecture: i686
@@ -422,9 +469,11 @@ Homepage: https://openvpn.net
 Depends: liblz4, liblzo, net-tools, openssl
 Description: An easy-to-use, robust, and highly configurable VPN (Virtual Private Network)
 Filename: i686/openvpn_2.4.8-1_i686.deb
+Size: 305276
+MD5Sum: 2c99a74e863c814e8e0b6dce1f73a8ee
 SHA1: 3f23410554d06b5c1b5ba7b516a8db99a4df0cce
 SHA256: 57d4baf45fd1733c4dd9db66fa9874262f2e4d00ba78878bf6cf099ea3aa14e7
-Size: 305276
+SHA512: edd38e63cb3605950f54ba5551df9355c80993472b01f58be5f1140c1664cd869db40291ba00fcb752df1d3614e8d83edc6b6a163ba1a5af21f11f16ddfbbb7f
 
 Package: pciutils
 Architecture: i686
@@ -435,9 +484,11 @@ Homepage: https://mj.ucw.cz/sw/pciutils/
 Depends: zlib
 Description: a collection of programs for inspecting and manipulating configuration of PCI devices
 Filename: i686/pciutils_3.6.2-1_i686.deb
+Size: 320944
+MD5Sum: 63268f8226c477d89737df1bc77df08c
 SHA1: 1f7e62e28cfedfd0c5a2a28066f99e0c58948c67
 SHA256: 5fdb1fce8e25650bbd82f681b37e87aedcd74ddba6561e5494020558e884648e
-Size: 320944
+SHA512: 14eeeb2ed46ffdb5fb6e1e53c6b25d3d48d12585968b59527eaa409d25f0a7dbb807e0e685421b9d06b7e13b929fec9833cf5f5c2f7b6214dcc451eead6ffb94
 
 Package: pcscd
 Architecture: i686
@@ -448,9 +499,11 @@ Homepage: https://pcsclite.apdu.fr/
 Depends: libpcsclite (= 1.8.25-2)
 Description: Middleware to access a smart card using SCard API (PC/SC). (daemon side)
 Filename: i686/pcscd_1.8.25-2_i686.deb
+Size: 38736
+MD5Sum: f92b927b4339f73e41100017d85d6705
 SHA1: 74c20bf895c2adc6c4b7d529faf0dce5970f6669
 SHA256: 6896424b742fcc5910303e2205a211c79b1b176c43a9069273f4539544ac5de2
-Size: 38736
+SHA512: 684daf0cd297586f0f91ce36ef5fe71d2904e9c5012d6988cb40320a5d8d817591b4a453ca8936eca5123e3e2834120407cbece121bd85510889229aca5107a5
 
 Package: runc
 Architecture: i686
@@ -461,9 +514,11 @@ Homepage: https://www.opencontainers.org/
 Depends: libseccomp
 Description: A tool for spawning and running containers according to the OCI specification
 Filename: i686/runc_1.0.0-rc8-2_i686.deb
+Size: 2213734
+MD5Sum: 904c1c5354f3f13e6c2e1bc7759ecd8f
 SHA1: 4524453a5a87e0912fb3365cc1a1b3f9f500d969
 SHA256: 8a8cd6bc0daa9c6d623be104760490cda28f33e5b6ce9b288753dd5bc1c82b04
-Size: 2213734
+SHA512: 0f8c0b21ad5329aa808be1ca2b8b6a8975020e57e9ff393c9332bb6a55803b55b8b4ffb19969cb0ac2dc62648fbef9e10bbccbd1996dbd85f8d7cdb9c3ca036c
 
 Package: tcpdump
 Architecture: i686
@@ -474,9 +529,11 @@ Homepage: https://www.tcpdump.org/
 Depends: openssl, libpcap
 Description: A powerful command-line packet analyzer
 Filename: i686/tcpdump_4.9.3-1_i686.deb
+Size: 292060
+MD5Sum: e3c4d52efb366a553f70470d39fcbb6d
 SHA1: 2224401b1bb5cf9a4045d940e366404f8675307a
 SHA256: faf82628ee7b375593229661251b84bab31a29872509f543c316f059f99def35
-Size: 292060
+SHA512: 7e802df86558cfb2bea7c26e3df5ae56c4c23bb264087d16675c60842f24d8a68d8d3f185c56cd972b1750c8ddd6333af82f904d5ff57226d6a26c72f3de572f
 
 Package: termshark
 Architecture: i686
@@ -487,9 +544,11 @@ Homepage: https://termshark.io
 Depends: tshark
 Description: A terminal UI for tshark, inspired by Wireshark
 Filename: i686/termshark_1.0.0-2_i686.deb
+Size: 3947972
+MD5Sum: 9f2f3d303c73509f975b635f586307df
 SHA1: 3ebf5144c563665710c9c616ab2590d544430029
 SHA256: 47a7a8a4aecc8cc3a94c827ab133372a653faff33a03abfee4225b893250998b
-Size: 3947972
+SHA512: 6b422ed600cd816d3f0bea943028f542facef12816542fb0b9c27fe51167730fabb01d744277f645879c56c287cab4abb9418a5330fb0196d4fd69411cf960df
 
 Package: tinc
 Architecture: i686
@@ -500,9 +559,11 @@ Homepage: https://www.tinc-vpn.org/
 Depends: liblzo, openssl, zlib
 Description: VPN daemon
 Filename: i686/tinc_1.0.36-2_i686.deb
+Size: 92336
+MD5Sum: 4856d71f1d6ed9aca65a6150c05f2517
 SHA1: 501b58c90909e7bc45a8e78f8f6046ab17a5b9fa
 SHA256: 14bc10cc948e7f00ce2cb2235f55f01dbc135ecc4a167a97d730a4c264474f53
-Size: 92336
+SHA512: 435fff0107143265d8ac8ffbec572338a6f52cfdeba88971a28bbac3d1e92dbd077e893ee66e737475fc14d3f5185b0953b5f9b694347aa9ad1a745178d594a4
 
 Package: tshark
 Architecture: i686
@@ -515,9 +576,11 @@ Depends: glib, libgpg-error, libgcrypt, libnl, libpcap, libgnutls, openssl, libi
 Replaces: tshark-dev
 Description: Network protocol analyzer and sniffer
 Filename: i686/tshark_3.0.6-1_i686.deb
+Size: 13335798
+MD5Sum: feb30106b094e5b9de92389153e7c132
 SHA1: 3689ffbec690c9c4ceb7dc874baaa2418d0adcb4
 SHA256: 4b5e6aafbe80de41f10ca723c4bf47af4a7ecbb52996f0ed1b2e9bdfc876df56
-Size: 13335798
+SHA512: d6aa5734bc13acec3bdb0e913463cb0ff6fd42c4dc0630a0a40e625d3744229a0cbaf58e6691c54285c412520c0073b0cbc5eaa8d8cf1d2a150e4b3459285d1e
 
 Package: wavemon
 Architecture: i686
@@ -528,9 +591,26 @@ Homepage: https://github.com/uoaerg/wavemon
 Depends: libcap, libnl, ncurses
 Description: Ncurses-based monitoring application for wireless network devices
 Filename: i686/wavemon_0.9.0-3_i686.deb
+Size: 50052
+MD5Sum: 93db49f08a7754884e52c600f18e86bc
 SHA1: c69926da42499cba361d3ff2bcf0e5fde71e8319
 SHA256: 1c81a6d6a900608e9313154b1db179670156e43ed343964bc0f417a9d2cb112d
-Size: 50052
+SHA512: 7a0978b421d1f51a18365194aca2d41828396f532c24a5f69bef15d355fe29a255e2c3a60736c11ed2356bf587abeca7d9a36b3ff546e97944388c6b4a37a147
+
+Package: wireless-tools-static
+Architecture: i686
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 30pre9-3
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools
+Depends: wireless-tools (= 30pre9-3)
+Description: Static libraries for wireless-tools
+Filename: i686/wireless-tools-static_30pre9-3_i686.deb
+Size: 11762
+MD5Sum: 7224a453d509cf1cf67613ce8f551248
+SHA1: a20caf34102fb39e20503a3a0b28dffafbb21824
+SHA256: d5482a1d47548577e42c1a779c973d8ad49caff410fd6acacbdc2d82b70bdad7
+SHA512: 8109e9612bff5bc9870ba41a989d96dda73866c609ef31751ce306321b411133ce36a6718ba2d941763b57b1ef7f4646370c5cfbe7dc0771aa51f8b00d92be89
 
 Package: wireless-tools
 Architecture: i686
@@ -542,20 +622,9 @@ Breaks: wireless-tools-dev
 Replaces: wireless-tools-dev
 Description: A set of tools allowing to manipulate the Wireless Extensions
 Filename: i686/wireless-tools_30pre9-3_i686.deb
+Size: 86484
+MD5Sum: 566a688318b0195496bd15390df0896a
 SHA1: 6801f5dcef52e1be5beb763929d563ad3256c449
 SHA256: d62066209fbcd37b2bf61634b1eb99b3786b22978957382c47f2d28056685452
-Size: 86484
-
-Package: wireless-tools-static
-Architecture: i686
-Installed-Size: 60
-Maintainer: Fredrik Fornwall @fornwall
-Version: 30pre9-3
-Homepage: https://hewlettpackard.github.io/wireless-tools/Tools
-Depends: wireless-tools (= 30pre9-3)
-Description: Static libraries for wireless-tools
-Filename: i686/wireless-tools-static_30pre9-3_i686.deb
-SHA1: a20caf34102fb39e20503a3a0b28dffafbb21824
-SHA256: d5482a1d47548577e42c1a779c973d8ad49caff410fd6acacbdc2d82b70bdad7
-Size: 11762
+SHA512: 24cbe02e106f6613a7c54fe85bfba942e427688fc177667abc27bdf8c2795fd16e20ad398c712d9980f9f241e36b280b9ef665f223038f98eaadf285dcaaaac4
 

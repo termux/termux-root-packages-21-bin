@@ -7,9 +7,11 @@ Homepage: https://www.aircrack-ng.org/
 Depends: libc++, libnl, openssl, libpcap, pciutils
 Description: WiFi security auditing tools suite
 Filename: arm/aircrack-ng_1.2-rc4-6_arm.deb
+Size: 231344
+MD5Sum: a67c49521b7b132e32431aee3db68d1f
 SHA1: c81041e0f9922c8292476d03bdb7aa5f71b4a1bd
 SHA256: b000afb86bc251a73b58fb6010276f39e3f9d06e36a34873845b0e2c4bfbee72
-Size: 231344
+SHA512: 7bdfe8c684798d50f265a66742843c2c19f6835aaab861f58123cf9904dfcf42db0c036e120adc5259654933d66edd311df0849b8e3617adcd5c0c80a5c7e2f0
 
 Package: arp-scan
 Architecture: arm
@@ -20,9 +22,11 @@ Homepage: https://github.com/royhills/arp-scan
 Depends: libpcap
 Description: arp-scan is a command-line tool for system discovery and fingerprinting. It constructs and sends ARP requests to the specified IP addresses, and displays any responses that are received.
 Filename: arm/arp-scan_1.9.6-1_arm.deb
+Size: 328426
+MD5Sum: f7f4530bc3bd5e9628840ed64aa60caa
 SHA1: 98ae5a1310564be1bf9289792788b6610f0a4d8c
 SHA256: e3f8df9790b228c4af5eb1d7e99df6152ffe266364db557ba7b80174b4122ee2
-Size: 328426
+SHA512: 096db7f08d928a0ddded7fbba0821ede152b74b96d3c32ddf5d4ca8e896cc9854cb5412816ee11224de715c2ab0e34323a2a41dcfca7c8f58fb1482f14d00760
 
 Package: bettercap
 Architecture: arm
@@ -33,9 +37,11 @@ Homepage: https://www.bettercap.org
 Depends: libpcap, libusb
 Description: The Swiss Army knife for 802.11, BLE and Ethernet networks reconnaissance and MITM attacks
 Filename: arm/bettercap_2.25-1_arm.deb
+Size: 5211018
+MD5Sum: 37451f6328165ce44b7c855765d3c00e
 SHA1: c59f6e8df5f4a8e4d8d4dc75dac25dfbb014eff6
 SHA256: 2a50c6995c06414bec1aedbdb3d464f7a068dc349e03f4ea3af21ec970f27480
-Size: 5211018
+SHA512: d44298a8fb9c24b7bb332ebb69ebc4598d79e58fc8551dfe2485f3bbdbeadda28441fa5a5dbeaedcfc3dfb5854494f4e07f05d73ab038d8b261d1d3412eea255
 
 Package: chroot
 Architecture: arm
@@ -45,9 +51,26 @@ Version: 8.31-1
 Homepage: https://www.gnu.org/software/coreutils/
 Description: Chroot utility from the Coreutils
 Filename: arm/chroot_8.31-1_arm.deb
+Size: 30606
+MD5Sum: 61411b272c5e165dd08d9c565c0304f1
 SHA1: f59031d9e9724a3cad3a089839cd80adea7d4b65
 SHA256: d782af5b83ef67e2c2d34db0706d6210314db19ea90bb5ef313403e04be69479
-Size: 30606
+SHA512: 1a29b408eb87faa85201449de576309a64a40d429af145a5608f5fd95f3a7f15bcc27ee5415413d49a7b85d1f4c4649884aefd59234d0a4fd66768334ae1446e
+
+Package: cryptsetup-static
+Architecture: arm
+Installed-Size: 616
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.1-1
+Homepage: https://gitlab.com/cryptsetup/cryptsetup/
+Depends: cryptsetup (= 2.2.1-1)
+Description: Static libraries for cryptsetup
+Filename: arm/cryptsetup-static_2.2.1-1_arm.deb
+Size: 191742
+MD5Sum: cf948af1b9396799ec3ea69f090810e1
+SHA1: da02f5032e0562f446fb02e7b6419a0c5c84a415
+SHA256: 597b242b0081472bf5b2b167c6778915b12b5e791516458493bdd9f3f8b24ee6
+SHA512: 839ad5dce6ed9e045ff6946b5fc38a9584bf0cb3486919b4ce0124ac22e6d5c1ca8521389897aae10d5ca7999ccca15842dfc87373550ae95e2280ffd49a54b1
 
 Package: cryptsetup
 Architecture: arm
@@ -60,22 +83,11 @@ Depends: json-c, libdevmapper, libgcrypt, libpopt, libuuid, util-linux, openssl
 Replaces: cryptsetup-dev
 Description: Userspace setup tool for transparent encryption of block devices using dm-crypt
 Filename: arm/cryptsetup_2.2.1-1_arm.deb
+Size: 246092
+MD5Sum: ac5eee329604d7a1e647c762ed8b3ddb
 SHA1: 1c112d3540c4f84232158e8f6c5332616d6e2e16
 SHA256: ab784d8d6a4be47dd877b719a202c7aa6ea2a60a64cb301b9bf098c4bb3d2bfb
-Size: 246092
-
-Package: cryptsetup-static
-Architecture: arm
-Installed-Size: 616
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.1-1
-Homepage: https://gitlab.com/cryptsetup/cryptsetup/
-Depends: cryptsetup (= 2.2.1-1)
-Description: Static libraries for cryptsetup
-Filename: arm/cryptsetup-static_2.2.1-1_arm.deb
-SHA1: da02f5032e0562f446fb02e7b6419a0c5c84a415
-SHA256: 597b242b0081472bf5b2b167c6778915b12b5e791516458493bdd9f3f8b24ee6
-Size: 191742
+SHA512: 34ae520a33663d952f26ceda5b566cdeb7cfb5df4fa207ebdd82ecd1ae216a695c03b25fe57116532afd3cbb6f55e99bb693bf8b301a25b94a894552b1961d56
 
 Package: dnsmasq
 Architecture: arm
@@ -85,9 +97,11 @@ Version: 2.80-1
 Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
 Description: Dnsmasq provides network infrastructure for small networks
 Filename: arm/dnsmasq_2.80-1_arm.deb
+Size: 152530
+MD5Sum: 3d54034c0bafe69db2fe1b3ed63b1eb1
 SHA1: 4a624adf6b159af83cb38173d77959fb14f36cba
 SHA256: f139147bae9b1a6ec5a44d37344f0054612a373dc33a9811e1312188504b3e06
-Size: 152530
+SHA512: 1437f027f32694171bb378e4925b32aee52d0f12d8d2915ecdfbdc440999900266dbd3481bfbbb874c0b5e5ffc77f739a320f015e91e1261e20347c0f175d209
 
 Package: ethtool
 Architecture: arm
@@ -98,9 +112,11 @@ Homepage: https://mirrors.edge.kernel.org/pub/software/network/ethtool/
 Depends: libnl
 Description: standard Linux utility for controlling network drivers and hardware, particularly for wired Ethernet devices
 Filename: arm/ethtool_5.3-1_arm.deb
+Size: 102034
+MD5Sum: f7eeae29713e70808b36dd1e35489f63
 SHA1: 8aca4b70e27a55ae5c692af8133afd38bd844d1d
 SHA256: aae25c8e5d8a4b622d4d18c97345cb84c3a8ecb6704ef42062a9bbf20938c7d6
-Size: 102034
+SHA512: 7ddde7d77c34c5362c2c0367bf96d0c68a711ecf682177764c4494667208cf603ecbd22ac94c30339599708b8da9cbf91b8df382f5233808131ea84ddb3c8184
 
 Package: frida-server
 Architecture: arm
@@ -111,9 +127,11 @@ Homepage: https://www.frida.re/
 Depends: libiconv
 Description: Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
 Filename: arm/frida-server_12.7.24_arm.deb
+Size: 11491910
+MD5Sum: d5f7c3c43642108ef08a4c2d068523de
 SHA1: 9a085b88d7e21cca75fcc7f3c743a6f019e5b1e1
 SHA256: 07e68f5c6ee3529611797f4b240f073bef11344daca9b2c989651ca58a805343
-Size: 11491910
+SHA512: ec4de411878d1654794f231172b0843a32e5d6cb0cef00935144880db41ff497c468e7bf202ad78e6d53cb3895731b0903976f4c3f0a9ceb9d6def3d8672728f
 
 Package: gptfdisk
 Architecture: arm
@@ -124,9 +142,11 @@ Homepage: https://www.rodsbooks.com/gdisk/
 Depends: libpopt, libuuid, ncurses
 Description: A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
 Filename: arm/gptfdisk_1.0.4-1_arm.deb
+Size: 139328
+MD5Sum: 92470fdbcb854583ac706c3e43cca714
 SHA1: dc1bc48b385d5bbf5318d621db4b7fd4fbfbd585
 SHA256: 6eb9d18722e257a675aa6a6e2984d3813d83a141cb090ad15f90663aaad6b018
-Size: 139328
+SHA512: ee4fdf42bb8b5ab9e704fa6bae3c93bf3f88b8451cb9f393f16ea83ef84809a56510b58e251f5812e8e1f60f0f4b567cb79eb78f040f97540fbf3034f5cfcde3
 
 Package: hping3
 Architecture: arm
@@ -137,22 +157,11 @@ Homepage: http://www.hping.org/
 Depends: libandroid-shmem, libpcap, tcl
 Description: hping is a command-line oriented TCP/IP packet assembler/analyzer.
 Filename: arm/hping3_3.0.0-1_arm.deb
+Size: 61054
+MD5Sum: 4259266442622100792524c2a09ad3d6
 SHA1: e942e8e52dd650100f599c24586dd7a09e6ade38
 SHA256: deddcaed00bc7875d41599ddfb42fd0d6e9c2b1782a6edd05d4d2fbf6f422e04
-Size: 61054
-
-Package: hw-probe
-Architecture: all
-Installed-Size: 252
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.4-1
-Homepage: https://github.com/linuxhw/hw-probe
-Depends: curl, hwinfo, net-tools, perl
-Description: Tool to probe for hardware and check its operability
-Filename: all/hw-probe_1.4-1_all.deb
-SHA1: 1857b1a55dbbe74bfe7dbc38403082232ef14cd3
-SHA256: 8f2a2caf7a7fbd2467ecb4c5faadc24fb33730fcc013eef34fe32284caaa65a6
-Size: 40056
+SHA512: 3c2c7291d9adc92b4c774ce40f1f1cedcade2ed29304cfe5dc3c6c1b7ce5cb4dc1535cc31882396f88a776af01cea69ceb4c74aba0633a79d3e857481647fb41
 
 Package: hwinfo
 Architecture: arm
@@ -165,9 +174,11 @@ Depends: libandroid-shmem, libuuid, libx86emu
 Replaces: hwinfo-dev
 Description: Hardware detection tool from openSUSE
 Filename: arm/hwinfo_21.67-1_arm.deb
+Size: 701150
+MD5Sum: 1d75d10b0803e8cf78c3bea1e5205c65
 SHA1: dc826dfc180e94d3a0115f2c1ad9c9997c45afc8
 SHA256: 23209d31a7e4bdcd41da331753f78ce34acf7d7b954de87d4457ad00c0a8e0c5
-Size: 701150
+SHA512: a9566fcca3612ff11e550c8617ae17d9c9797b3d0dbe027abee94719b43ed30a43d55b1cbe854e5acc26064e387010cca45dc11a7a0dd94f899b28dc56ff99d9
 
 Package: iodine
 Architecture: arm
@@ -178,9 +189,26 @@ Homepage: http://code.kryo.se/iodine
 Depends: net-tools, zlib
 Description: Tunnel IPv4 data through a DNS server
 Filename: arm/iodine_0.7.0-7_arm.deb
+Size: 43598
+MD5Sum: 13ff525b6965d314303cb62f9265c526
 SHA1: c995e612800d461abeb46b2b40f9867395d6ff8d
 SHA256: cb3d48e6efc9bd368c7f8e67a53ff8ac3651c856ca06cb5066c7160e982b9c0a
-Size: 43598
+SHA512: c3598975f94aefeb02787545ba23ac0361013ed869be44405f413d613fd19c3c96b6b0110187d6b10de38c3d813d0ef9ab49ec843fe80aafb364992c148fedaa
+
+Package: ipset-static
+Architecture: arm
+Installed-Size: 228
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 7.3-1
+Homepage: http://ipset.netfilter.org
+Depends: ipset (= 7.3-1)
+Description: Static libraries for ipset
+Filename: arm/ipset-static_7.3-1_arm.deb
+Size: 42784
+MD5Sum: 9d2b1de98f05b47b5b288d7d60ae1882
+SHA1: e243958e5bebfe1d2d9506b67329276296973aaf
+SHA256: b2ddaf863d5cc7df10fe8f63186e06edea5a036df1695e216ce5c943240fb285
+SHA512: 69bdd3f18a1637064e25fac346d821b072e1364d276cfb0eba7ea4852a0ef0cc564fa6683c367a9271f8c3c601def0a2cff3300080802ba6b2ce6993ca534714
 
 Package: ipset
 Architecture: arm
@@ -193,22 +221,11 @@ Depends: libmnl, libltdl
 Replaces: ipset-dev
 Description: Administration tool for kernel IP sets
 Filename: arm/ipset_7.3-1_arm.deb
+Size: 63088
+MD5Sum: 0aea18872f93a47cb754f8d6a5e5952e
 SHA1: 77d70b4e35264070916422c6d6498c90bedccc3e
 SHA256: 4cae8cba302138a00439424ba24f2e7609efbfd641b11aefd1566b7e10bb61da
-Size: 63088
-
-Package: ipset-static
-Architecture: arm
-Installed-Size: 228
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 7.3-1
-Homepage: http://ipset.netfilter.org
-Depends: ipset (= 7.3-1)
-Description: Static libraries for ipset
-Filename: arm/ipset-static_7.3-1_arm.deb
-SHA1: e243958e5bebfe1d2d9506b67329276296973aaf
-SHA256: b2ddaf863d5cc7df10fe8f63186e06edea5a036df1695e216ce5c943240fb285
-Size: 42784
+SHA512: 520aa9310d8022cd49758647d6d67a4d489a9061eb7e766e343e3af32e65b6ee46f7cce3909f39637b15d491850de4799f7f6cd0945b48b51505f430701c266e
 
 Package: iw
 Architecture: arm
@@ -219,9 +236,26 @@ Homepage: https://wireless.wiki.kernel.org/en/users/documentation/iw
 Depends: libnl
 Description: CLI configuration utility for wireless devices
 Filename: arm/iw_5.3-1_arm.deb
+Size: 70366
+MD5Sum: 50468ac189563b9df9cb18d441a13751
 SHA1: 37dba1d87fb02e2585f16451f9a74853316c18be
 SHA256: 62ad2b6c8dfc8abfd98dc77358c7f686888749c0c363fd59bef858fe16ec3b2d
-Size: 70366
+SHA512: 40239473667115210234bcd3e9a97fdba72594e3fd4758c1b41ad896f93a11077e45f38e3e31e28fe1b76f7c574928ab94a5ae9d4809d2ff3a088ea7802893d9
+
+Package: libaio-static
+Architecture: arm
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.112-2
+Homepage: http://lse.sourceforge.net/io/aio.html
+Depends: libaio (= 0.3.112-2)
+Description: Static libraries for libaio
+Filename: arm/libaio-static_0.3.112-2_arm.deb
+Size: 3172
+MD5Sum: 694447e5f06326f5001e4384380679c2
+SHA1: 83f3a6e95fe59401bb9bb31389347788e73dfe68
+SHA256: df4b93566923dc385ca1678a280b4a56c57193c66b50c0cdec538bf845f73673
+SHA512: 1d955dc5513b0fb76426d7276d74d0443de85facc90f150b4fa029238a205f6e16779c6f90a7e1e6c87c87a8b719ce7c2fff3fcdaea294b12272f6043a7dba3e
 
 Package: libaio
 Architecture: arm
@@ -233,22 +267,11 @@ Breaks: libaio-dev
 Replaces: libaio-dev
 Description: Linux kernel AIO access library
 Filename: arm/libaio_0.3.112-2_arm.deb
+Size: 4862
+MD5Sum: 30c87b58ec3d61b9809070b32e6dc1f1
 SHA1: 3e8ef78501b80e1858edc800cfe2b41c5931b953
 SHA256: 5ed086f57c7a6c0b6124e2c69284d2ae67f0d55d9d1b4f9df1f56628158b4d87
-Size: 4862
-
-Package: libaio-static
-Architecture: arm
-Installed-Size: 44
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.112-2
-Homepage: http://lse.sourceforge.net/io/aio.html
-Depends: libaio (= 0.3.112-2)
-Description: Static libraries for libaio
-Filename: arm/libaio-static_0.3.112-2_arm.deb
-SHA1: 83f3a6e95fe59401bb9bb31389347788e73dfe68
-SHA256: df4b93566923dc385ca1678a280b4a56c57193c66b50c0cdec538bf845f73673
-Size: 3172
+SHA512: 56c9610247ce04b40120480d6bf80d95acf8b478ffb0b8c9c281734c6fdf688cc242328847d3f60b3ba78abcbca73309d27f21dcf9b9186274a590b6cca81ca1
 
 Package: libccid
 Architecture: arm
@@ -259,9 +282,11 @@ Homepage: https://ccid.apdu.fr/
 Depends: libpcsclite, libusb, flex
 Description: A generic USB CCID (Chip/Smart Card Interface Devices) driver and ICCD (Integrated Circuit(s) Card Devices).
 Filename: arm/libccid_1.4.31-1_arm.deb
+Size: 45462
+MD5Sum: a639edb673714d1f57de464eda019e37
 SHA1: cf551d1babdcc7a2fbaf2ac7c5ef89dae63d7971
 SHA256: ab0d0a35b208f992391656dddfb7b02f4a5a52fe7045d0bdc43a8e3418aed96f
-Size: 45462
+SHA512: 4d0896e0a0d25eacda3d9918b2102513779008a828396f8e15c0dd57f0e75b019c6163b3ce38018ad352bb8a537bb0e28864183cd3a2a8c0ed5602c38d841107
 
 Package: libdevmapper
 Architecture: arm
@@ -274,9 +299,26 @@ Depends: libandroid-support, libaio, readline
 Replaces: libdevmapper-dev
 Description: A device-mapper library from LVM2 package
 Filename: arm/libdevmapper_2.03.01-2_arm.deb
+Size: 139696
+MD5Sum: b184f133122a66375c6683be98e5085e
 SHA1: dc9fe29365cb9b921af7666ecfeade19b167d4fa
 SHA256: aeb5cf7f99dbd21478155d4a09a89ecaa64fddfb64b18e258269db64a93401fb
-Size: 139696
+SHA512: 840fbe5ba5b1fc46dcba45d9e0a54f9c46831245177db900bb87e22984ca4ee872a4fb73d100efbff52729f3ae24e2bf734f55aad326a8ccd01165701d24f70d
+
+Package: libpcsclite-static
+Architecture: arm
+Installed-Size: 100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.25-2
+Homepage: https://pcsclite.apdu.fr/
+Depends: libpcsclite (= 1.8.25-2)
+Description: Static libraries for libpcsclite
+Filename: arm/libpcsclite-static_1.8.25-2_arm.deb
+Size: 21042
+MD5Sum: 8743600c2b60b8d499421b371bfa01c9
+SHA1: d9d808be816019b279ac31526c4cd11a7feba087
+SHA256: 0d5bc18cad922bee2afc183d3e490ae4ceafa0404c03d85eebe52f8bd02d7b76
+SHA512: d7fe9154aaa8b5a5559d6c64e71cad386606d008c0e0b633a03257e2ac237b9e35c452ba80a89e814e4c1198a240cc010f8085c378e57451dce1b548dc3a75fb
 
 Package: libpcsclite
 Architecture: arm
@@ -289,22 +331,26 @@ Depends: libusb, python2
 Replaces: libpcsclite-dev
 Description: Middleware to access a smart card using SCard API (PC/SC).
 Filename: arm/libpcsclite_1.8.25-2_arm.deb
+Size: 46390
+MD5Sum: 2afa4ea027993a54e484833f8ae2e28b
 SHA1: b28bfe13d6335ebb964f8f9bb5b0977f015e7dbc
 SHA256: 00544e6f0708e01f7c057380a41ac8920a3f5ab63897080f8a5e3d67d1415df2
-Size: 46390
+SHA512: af1290968d674ed6ad754a65afefa851d60315f5a8f7eaea5ee0e2fecd8e4854d532553530c5b3ebccfab5a4cb65aae5ad4ddbd0285b7a8893b1d89a26d02e65
 
-Package: libpcsclite-static
+Package: libseccomp-static
 Architecture: arm
-Installed-Size: 100
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.25-2
-Homepage: https://pcsclite.apdu.fr/
-Depends: libpcsclite (= 1.8.25-2)
-Description: Static libraries for libpcsclite
-Filename: arm/libpcsclite-static_1.8.25-2_arm.deb
-SHA1: d9d808be816019b279ac31526c4cd11a7feba087
-SHA256: 0d5bc18cad922bee2afc183d3e490ae4ceafa0404c03d85eebe52f8bd02d7b76
-Size: 21042
+Installed-Size: 416
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.4.1-2
+Homepage: https://github.com/seccomp/libseccomp
+Depends: libseccomp (= 2.4.1-2)
+Description: Static libraries for libseccomp
+Filename: arm/libseccomp-static_2.4.1-2_arm.deb
+Size: 34840
+MD5Sum: 3eb31f84bd3f0404d9a71b098383f151
+SHA1: 7a23b83679369b52237fdf89ed04800bcd0e505d
+SHA256: 44895157b2dda28bfd149144a298bac66f8a6949d2cbf59887042d0a916beae0
+SHA512: b27dc42824582d6b1f695138be8f78e6bdf1afc0f4467b1642c0e2fdd307887fd58c210bcd09c75577863e12fd859c79e1fbb0d7bb2b48f833c3a241cc3622fc
 
 Package: libseccomp
 Architecture: arm
@@ -316,22 +362,11 @@ Breaks: libseccomp-dev
 Replaces: libseccomp-dev
 Description: Enhanced seccomp library
 Filename: arm/libseccomp_2.4.1-2_arm.deb
+Size: 60494
+MD5Sum: 5d0859b2b98e5fbe268e7b1c5c213312
 SHA1: 1c4a920f072986af104bf4717ec2ae4e9b9268f5
 SHA256: 1764e54d92ffa6e54d2b04d6070b57c01d2e3c7400f87a8e25f1279af427fd3f
-Size: 60494
-
-Package: libseccomp-static
-Architecture: arm
-Installed-Size: 416
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.4.1-2
-Homepage: https://github.com/seccomp/libseccomp
-Depends: libseccomp (= 2.4.1-2)
-Description: Static libraries for libseccomp
-Filename: arm/libseccomp-static_2.4.1-2_arm.deb
-SHA1: 7a23b83679369b52237fdf89ed04800bcd0e505d
-SHA256: 44895157b2dda28bfd149144a298bac66f8a6949d2cbf59887042d0a916beae0
-Size: 34840
+SHA512: d82c99086d488e46d43d143017b8588c10982c0ad86ba57bd3f2be20f5b0e7d6ff31240918734ae98ad2b235ca8189a4f6b7b00bc7deb712bc8eba9eca1a3669
 
 Package: libx86emu
 Architecture: arm
@@ -343,9 +378,11 @@ Breaks: libx86emu-dev
 Replaces: libx86emu-dev
 Description: x86 emulation library
 Filename: arm/libx86emu_2.4-1_arm.deb
+Size: 42644
+MD5Sum: 8f04289db67d914f93b5b8593f988887
 SHA1: e516a4ab69ccb71f727ad4fd54c79dd0a2455bb8
 SHA256: 4f3bcd56c0858334f01f4894cddb9c747ff380ee8e5ccaab5438bb74fa288e19
-Size: 42644
+SHA512: c00af2d57fb83266cbc350c1a04be1f05c76fa1ce8d0c6ff9cf4c6e5476ac039d42df1cd4f069efd1840067b504fae69f19674ef84776892d512174a342347b1
 
 Package: macchanger
 Architecture: arm
@@ -355,9 +392,11 @@ Version: 1.7.0-1
 Homepage: https://github.com/alobbs/macchanger
 Description: Utility that makes the maniputation of MAC addresses of network interfaces easier
 Filename: arm/macchanger_1.7.0-1_arm.deb
+Size: 183802
+MD5Sum: 7c25a1ddd425b191a8d430bd8055df04
 SHA1: 622cfa245fefc1efd0aca1ce54b5418cd89c144a
 SHA256: 687b69f9449cabf22067b4b68d3836e6854658f706ec9edc0fa630efc1b81fd1
-Size: 183802
+SHA512: b9a463110e2ae3cf5c3a50971cd97220e54f607891e52f996963b270ba445cb4e802ed963b8d7db3fee717a9a7cf8ac98f3b10b0d02a98355ec2a032159c1488
 
 Package: mtr
 Architecture: arm
@@ -368,9 +407,11 @@ Homepage: https://github.com/traviscross/mtr
 Depends: ncurses
 Description: Network diagnostic tool
 Filename: arm/mtr_0.93-1_arm.deb
+Size: 45522
+MD5Sum: 956e2dca956827bfbf7fd0da5a3c44e0
 SHA1: ce5e0418d8c92d77e0b6a793c0e6f6683932f828
 SHA256: 9fa4320ddd7d508ce91808dcab26ea139e8474671258801e8cb147dddda1f997
-Size: 45522
+SHA512: a061eaae272b80fa68266239188955cf0495c89e3c5ba94a5e0dbfffcb9fd1dd414d2468a3b151fdbb92c1d9ddc9a0ea665516fb98f7de30ce108513a326a633
 
 Package: nethogs
 Architecture: arm
@@ -381,9 +422,11 @@ Homepage: https://github.com/raboof/nethogs
 Depends: libc++, ncurses, libpcap
 Description: Net top tool grouping bandwidth per process
 Filename: arm/nethogs_0.8.5-git-3_arm.deb
+Size: 30654
+MD5Sum: 4aeb4ad5e383e49c3779ee015ac629f7
 SHA1: a4993e44e7f2fd162e84bca0e284b7be0b58ad61
 SHA256: aa9506b23ecd9e1aff91ba8acad175add68b3d8ffdf8879db9cc9bb09f71673e
-Size: 30654
+SHA512: 5a3af33d99b022ebe1160c4e2b062a2d367d11e45cb3e3a26d3e0eff6b1fc4c5bddd3e7e7ba395d9bae00fde28787054f275adced51e247af77f4863216a5709
 
 Package: openvpn
 Architecture: arm
@@ -394,9 +437,11 @@ Homepage: https://openvpn.net
 Depends: liblz4, liblzo, net-tools, openssl
 Description: An easy-to-use, robust, and highly configurable VPN (Virtual Private Network)
 Filename: arm/openvpn_2.4.8-1_arm.deb
+Size: 293080
+MD5Sum: b0a219425656c76d6629850984fcd2fa
 SHA1: cfef37ec44f6b85b31001abcf6bee9d36ef2d8ad
 SHA256: 745544e50e1cfe9fbf90c7a494daf1857099feb5c350cde268c7d78349cfce66
-Size: 293080
+SHA512: 4fd6df91651f6c146ea52c82c62f79db5d27c4d416e7b92da92b7f13a246c3d093f059f7cedaa4f19da9f16b029fd476326beeb0dd4bd7ad7cbb7ff4992e51f3
 
 Package: pciutils
 Architecture: arm
@@ -407,9 +452,11 @@ Homepage: https://mj.ucw.cz/sw/pciutils/
 Depends: zlib
 Description: a collection of programs for inspecting and manipulating configuration of PCI devices
 Filename: arm/pciutils_3.6.2-1_arm.deb
+Size: 317074
+MD5Sum: 8c4551b6d48195d8c370fb410461ab51
 SHA1: 9d8283fd4dbf01a85ae430f20569f61ecad7f200
 SHA256: dc675f3aff27cc2c420bdac33a17f5cac2818a4d290d349c2656528402617873
-Size: 317074
+SHA512: beaef0148d8dc5d269ee8ad783241c85f65fe52d5aa691a1ac10dae0d009cf290a1d09c3491f0fd7bff356374f28a1f3c607cccc1d373fd7fef5af4227df9b1c
 
 Package: pcscd
 Architecture: arm
@@ -420,9 +467,11 @@ Homepage: https://pcsclite.apdu.fr/
 Depends: libpcsclite (= 1.8.25-2)
 Description: Middleware to access a smart card using SCard API (PC/SC). (daemon side)
 Filename: arm/pcscd_1.8.25-2_arm.deb
+Size: 42372
+MD5Sum: 0e6780bb83d44d26dabb211dbaa808d2
 SHA1: c1273a5aed246c9b763026bf099984e068d060d7
 SHA256: f2d24e86369c381cae50ddcefd4f0105674872fb0c7426e9d10fece2a5f52e39
-Size: 42372
+SHA512: 23291916e579c4c531d71fb01387ce5d6c83c5506ac6230e198815742e82255065bbe2cdb91360b20703f4bc824d60aabacbe9b666c582ac7ea69431eef60b93
 
 Package: runc
 Architecture: arm
@@ -433,9 +482,11 @@ Homepage: https://www.opencontainers.org/
 Depends: libseccomp
 Description: A tool for spawning and running containers according to the OCI specification
 Filename: arm/runc_1.0.0-rc8-2_arm.deb
+Size: 1910988
+MD5Sum: aefb3b9daf49666a8ac95626115112c9
 SHA1: 0d00b35ddaef4275d065d41b6a87bd0d2a549897
 SHA256: 59f67fbcc3befcbab26e5d0801d0208f4e45574323fa1b0b165105154be85d0d
-Size: 1910988
+SHA512: 78e3296d5e346e23e448ff095303d25c6e6adf1430797fd09ca923d77df2f5baa822700c17392f49b717d16ad5255e2a3e1d4d5e63d10db2f4f4f01eab101792
 
 Package: tcpdump
 Architecture: arm
@@ -446,9 +497,11 @@ Homepage: https://www.tcpdump.org/
 Depends: openssl, libpcap
 Description: A powerful command-line packet analyzer
 Filename: arm/tcpdump_4.9.3-1_arm.deb
+Size: 284216
+MD5Sum: 272d459550785d222dac78e51de0fc8f
 SHA1: 64a8b0a451eba2bdc4b3b3b4bbea699d546bb70f
 SHA256: 20ad5fe1c696fc0a82e17f9196c2d44dd38584c2e1ec69b0253f9678c90b14e8
-Size: 284216
+SHA512: 7fbdc703541695db289164d65d35e43a3ed67ae9a42c7bbe6c281681d67b8d00b1287bc0f1d8dacf8d09fc644246aff80e9966da64aac1a251916fc8e5f9d245
 
 Package: termshark
 Architecture: arm
@@ -459,9 +512,11 @@ Homepage: https://termshark.io
 Depends: tshark
 Description: A terminal UI for tshark, inspired by Wireshark
 Filename: arm/termshark_1.0.0-2_arm.deb
+Size: 3401114
+MD5Sum: dd10d8ca4d9a5afc43973d6b5232c761
 SHA1: b461f62616dde225dc0f99ca4ea4c5dbe0f6d9fa
 SHA256: 64dc62c3bd2c75cf66f16d1fde6e7160b7a56b486e1be0a1dfbef1337434d9f5
-Size: 3401114
+SHA512: 13a34f23635f053361849a7aaa7b67791f48f4f044259a35a09a74a588b3ea2801a7322569cd9287875527c3813fb3223bcf6c2e3a133dde9c465058132e2663
 
 Package: tinc
 Architecture: arm
@@ -472,9 +527,11 @@ Homepage: https://www.tinc-vpn.org/
 Depends: liblzo, openssl, zlib
 Description: VPN daemon
 Filename: arm/tinc_1.0.36-2_arm.deb
+Size: 92504
+MD5Sum: 8ac2d1320de01674871dad0b2765748c
 SHA1: 483be6af964a5159209d9d0d35bf13ba02580d00
 SHA256: 05745056c3ac6f9148e5027494863db3eb097a2b0c74c9b5d04cae0d8512302d
-Size: 92504
+SHA512: 5d35f4573e41c73fb1b9bf35e2cca0047e3840f8f58cdac35be88d69fd1cd975d0231af7930f2ed2da1d9058e636d6fa51a78d672b7c015f300b64701a3cbfa9
 
 Package: tshark
 Architecture: arm
@@ -487,9 +544,11 @@ Depends: glib, libgpg-error, libgcrypt, libnl, libpcap, libgnutls, openssl, libi
 Replaces: tshark-dev
 Description: Network protocol analyzer and sniffer
 Filename: arm/tshark_3.0.6-1_arm.deb
+Size: 13142766
+MD5Sum: 1bc9f519a5c12f3a7a1136ad312bdd48
 SHA1: 679e1e92b260f17f593ebf00f53223f638f2c2d3
 SHA256: f375eccca6b8f83674f2f094c9d96f4aeae68d53418b59308a858e1dbde2de27
-Size: 13142766
+SHA512: 732f0f964ddbc440b20e26950ad301e0295f01d5f686d73aecb167295869806cf8e6ebf1f232f9ad4228e04c455d473f2a79093d7f6669f8fadb89ecd2a17fec
 
 Package: wavemon
 Architecture: arm
@@ -500,9 +559,26 @@ Homepage: https://github.com/uoaerg/wavemon
 Depends: libcap, libnl, ncurses
 Description: Ncurses-based monitoring application for wireless network devices
 Filename: arm/wavemon_0.9.0-3_arm.deb
+Size: 52338
+MD5Sum: c6583bf2f232d43987e624df6c55305f
 SHA1: c34742a15c64409998bc439ee70c3c855f73546e
 SHA256: a5aeb922b7cec1bcaee8150c7ab2355bd05aa897f76d4fb35e3439a656676eff
-Size: 52338
+SHA512: f5abc36db8e178bcd63141a087344e34a049cb4e94feed1218e8a383a86f4c63edf050ccfc7223a63140dd3910496e4a28c2d6c79a9fa74d0476b2c513473dec
+
+Package: wireless-tools-static
+Architecture: arm
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 30pre9-3
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools
+Depends: wireless-tools (= 30pre9-3)
+Description: Static libraries for wireless-tools
+Filename: arm/wireless-tools-static_30pre9-3_arm.deb
+Size: 12198
+MD5Sum: e51357d075fd007e98c2f67458ce2413
+SHA1: 74d0b7f49ab89d36b63bcc530cc80bfc0c391377
+SHA256: 2d9cfaf0bba8e12c506ec0d24bc3186f0d5cf7978d64052f42aa0653ccb99edd
+SHA512: dd0ed869625a41c52e0a681fce8e69681b16fc972f4231f2d8574c0e641a0ad61f9791189224f656b725701a71e0bda6b9d925832c08a1edfdefc7cf7a09db7b
 
 Package: wireless-tools
 Architecture: arm
@@ -514,20 +590,9 @@ Breaks: wireless-tools-dev
 Replaces: wireless-tools-dev
 Description: A set of tools allowing to manipulate the Wireless Extensions
 Filename: arm/wireless-tools_30pre9-3_arm.deb
+Size: 88128
+MD5Sum: eaa121fda8bd0d899ba34eb6453701af
 SHA1: 3fab54f00b7e870361bb5210c7e81753d334da08
 SHA256: 6505fbb6aec0905126aef6a99686e9c782c6026a913eeb7fb62cef18660baca9
-Size: 88128
-
-Package: wireless-tools-static
-Architecture: arm
-Installed-Size: 60
-Maintainer: Fredrik Fornwall @fornwall
-Version: 30pre9-3
-Homepage: https://hewlettpackard.github.io/wireless-tools/Tools
-Depends: wireless-tools (= 30pre9-3)
-Description: Static libraries for wireless-tools
-Filename: arm/wireless-tools-static_30pre9-3_arm.deb
-SHA1: 74d0b7f49ab89d36b63bcc530cc80bfc0c391377
-SHA256: 2d9cfaf0bba8e12c506ec0d24bc3186f0d5cf7978d64052f42aa0653ccb99edd
-Size: 12198
+SHA512: a19f94e7b4b845369d4d39fee911def6440dbef62cc0e806cc623385f76f7f27e2607047c3a6102925d289499e4c7a3ac095fa250ef7b1800d9ba9fd41f29499
 

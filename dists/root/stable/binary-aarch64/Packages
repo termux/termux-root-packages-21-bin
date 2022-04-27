@@ -7,9 +7,11 @@ Homepage: https://www.aircrack-ng.org/
 Depends: libc++, libnl, openssl, libpcap, pciutils
 Description: WiFi security auditing tools suite
 Filename: aarch64/aircrack-ng_1.2-rc4-6_aarch64.deb
+Size: 227298
+MD5Sum: 5fe3adb3e8995e4669b6c619b74211c8
 SHA1: ec70729b50c1fd0a4f0c649526bd3927d99a7c67
 SHA256: dd84e201ee42fd8eddf711fe35cae3ee49c8fa5960706b183d4ea1c93fd0e1b8
-Size: 227298
+SHA512: 2782d4fa7d6a665c8c1d206f149b2fa4eee3e8de9fff623b028e27fafb86ee487389041ec2bfd4a27d964fa2379cf98c6c7b446c150424b1de1c2a02d70e28c8
 
 Package: arp-scan
 Architecture: aarch64
@@ -20,9 +22,11 @@ Homepage: https://github.com/royhills/arp-scan
 Depends: libpcap
 Description: arp-scan is a command-line tool for system discovery and fingerprinting. It constructs and sends ARP requests to the specified IP addresses, and displays any responses that are received.
 Filename: aarch64/arp-scan_1.9.6-1_aarch64.deb
+Size: 325846
+MD5Sum: 8765b70c51a2e0bc02d3ddd563585ec0
 SHA1: 5248869d1de0dbdcb57c3a890713b871b85c9545
 SHA256: 97855c08719f8896d2c0bedd007dbd0bc522389ab744080fedfe9de5bf27cf28
-Size: 325846
+SHA512: 0c98d4b85bf80f5311d9956328deb13499f4f93002116c6877ffcdf9e1d8b15dd788db64f33f337ccb5632a12ad5c8690f5f5acd8cabbdb7f04bce68f39ef8fa
 
 Package: bettercap
 Architecture: aarch64
@@ -33,9 +37,11 @@ Homepage: https://www.bettercap.org
 Depends: libpcap, libusb
 Description: The Swiss Army knife for 802.11, BLE and Ethernet networks reconnaissance and MITM attacks
 Filename: aarch64/bettercap_2.25-1_aarch64.deb
+Size: 5594302
+MD5Sum: a70c0a7ad43e22d3c3e729e271ee6bdf
 SHA1: 32020a07dc2ced9e79ae023a28b19b15467710fd
 SHA256: cbb4cf494ee80979b5445d1d2c91f1228e4b8ee521e0372fa39bb2d895beb2a0
-Size: 5594302
+SHA512: b517c5d7062cfa9b86fbd04121012a5f521ac800de3e0878fffd6642ee43e29f598bc967c774d70276a29a613eb792db6c9ed2d58d7df45090f4035969e7445a
 
 Package: chroot
 Architecture: aarch64
@@ -45,9 +51,26 @@ Version: 8.31-1
 Homepage: https://www.gnu.org/software/coreutils/
 Description: Chroot utility from the Coreutils
 Filename: aarch64/chroot_8.31-1_aarch64.deb
+Size: 33498
+MD5Sum: 2b50b1aa65f95052acd99cda4964baa8
 SHA1: 4a332a5a1db103d3a9a649b8e61310e516c47755
 SHA256: c5de4fb8860db41bf05b32dd0622b699bf37b8d923bc81c4f3f132315da2efca
-Size: 33498
+SHA512: 41a73958b6478d0f9209f25a4c2713f8fe140df8d3001af6d5e978b0c6608741684ba866f80557e5acf1ac104f4edd59f43df032a8578cb9bfce80493a7e4929
+
+Package: cryptsetup-static
+Architecture: aarch64
+Installed-Size: 892
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.1-1
+Homepage: https://gitlab.com/cryptsetup/cryptsetup/
+Depends: cryptsetup (= 2.2.1-1)
+Description: Static libraries for cryptsetup
+Filename: aarch64/cryptsetup-static_2.2.1-1_aarch64.deb
+Size: 181046
+MD5Sum: 61b5db95e6f4afe005442d8efdbe4da8
+SHA1: 1279f323e37ff54c74e7a1833631e74dad94281e
+SHA256: 59f8962b0947232e54468290144ac1db8aed72bc6c0064fcc3a6640c2833eed4
+SHA512: 2d0e4cb677f0d4ea0b1be04e5a8182c4da0706da313141391452ff49a5f7d63f94d2d3a13965ceddbda0b9281b4c1b486d9ca0ab8a4b944b35c9673ac8205cac
 
 Package: cryptsetup
 Architecture: aarch64
@@ -60,22 +83,11 @@ Depends: json-c, libdevmapper, libgcrypt, libpopt, libuuid, util-linux, openssl
 Replaces: cryptsetup-dev
 Description: Userspace setup tool for transparent encryption of block devices using dm-crypt
 Filename: aarch64/cryptsetup_2.2.1-1_aarch64.deb
+Size: 228418
+MD5Sum: aa680e9e602a6967a15c25c3471c3af1
 SHA1: 9c9f710a62b62cac3ebffcf972efec1c731ec1f0
 SHA256: 9830952cbea3dd0999df3dba4960a45c49ed435f503d7ee3d9e918b973bf7598
-Size: 228418
-
-Package: cryptsetup-static
-Architecture: aarch64
-Installed-Size: 892
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.1-1
-Homepage: https://gitlab.com/cryptsetup/cryptsetup/
-Depends: cryptsetup (= 2.2.1-1)
-Description: Static libraries for cryptsetup
-Filename: aarch64/cryptsetup-static_2.2.1-1_aarch64.deb
-SHA1: 1279f323e37ff54c74e7a1833631e74dad94281e
-SHA256: 59f8962b0947232e54468290144ac1db8aed72bc6c0064fcc3a6640c2833eed4
-Size: 181046
+SHA512: 6cd4953e001275283b0a31da20f68ccdec825259659aba185a65b0ff6c0a85197e7bf5f126ed9e8a41b953b8d23c0a882b101f776cb8d9dde288840ad05382f6
 
 Package: dnsmasq
 Architecture: aarch64
@@ -85,9 +97,11 @@ Version: 2.80-1
 Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
 Description: Dnsmasq provides network infrastructure for small networks
 Filename: aarch64/dnsmasq_2.80-1_aarch64.deb
+Size: 150642
+MD5Sum: 0e2f4b7e45e5ce46178cfbdf5f9ec38f
 SHA1: d6950ab9507bafe0dca779a941a36d2cc0761878
 SHA256: 6c45a55f82c8b1521dcc75fee0eb2a6907f544ebb4a7b2472509a022995f3f90
-Size: 150642
+SHA512: 66d750a2bd16451f34c03e855a9ce46ce28cb41c9d6f0fa661f248ef3fc1fadd2277e7a8ae737207f8a51cf13e4de98296ba6b527decc9d7b44698c07fa7bd24
 
 Package: ethtool
 Architecture: aarch64
@@ -98,9 +112,11 @@ Homepage: https://mirrors.edge.kernel.org/pub/software/network/ethtool/
 Depends: libnl
 Description: standard Linux utility for controlling network drivers and hardware, particularly for wired Ethernet devices
 Filename: aarch64/ethtool_5.3-1_aarch64.deb
+Size: 101030
+MD5Sum: 0e3fcaa65ba21f5eb83f79da64aac056
 SHA1: 5f1465cd60b5977acfb8efe08504049de7c972f8
 SHA256: e52d03db447551ca7976a7bbc5afdb24200a6b268a9434ec08a7c741e0e2c892
-Size: 101030
+SHA512: 0ab0a2f5a1d4f5a9553d8db6b6765e417a837cc854c1f308b0b94c82a8b77993ff79080a962c9de592dcf33fb71cf71527328dd23ef9dc4c384e638f66772a62
 
 Package: frida-server
 Architecture: aarch64
@@ -111,9 +127,11 @@ Homepage: https://www.frida.re/
 Depends: libiconv
 Description: Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
 Filename: aarch64/frida-server_12.7.24_aarch64.deb
+Size: 22357736
+MD5Sum: bd94c989e3798fdacc398503bac76ed1
 SHA1: 0b29c48251d138b06865f10df198dd0b62b79bb7
 SHA256: 5b06e57af5c26ae59e7af11157f214f198898cc93d08773780f717a2089bf90c
-Size: 22357736
+SHA512: b26388004b8d98a819251e0c0ead40c780b7480356220776987127fbfc3f725eeeabcf1aa1b1dccbb1fce38c4119196a2abf01c2e177dedfb0d285ebafc23f6e
 
 Package: gptfdisk
 Architecture: aarch64
@@ -124,9 +142,11 @@ Homepage: https://www.rodsbooks.com/gdisk/
 Depends: libpopt, libuuid, ncurses
 Description: A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
 Filename: aarch64/gptfdisk_1.0.4-1_aarch64.deb
+Size: 148920
+MD5Sum: d1017954a2070ce16702382eefcfb21c
 SHA1: 2c1b6f859ead9ed5c6b670b2dbfaf496f925e345
 SHA256: 1e7cab3afd6235dd6b8472273e8ccff35e87a3df31de7aa26a19cfea59fe3964
-Size: 148920
+SHA512: 30e2c8adbc78d28facb5eb9eba215f19b717f0a1ad2f4ce19a378dbc25bb995274c50be4b60a05a3646cbbe92ff54060b4819cf91c9e07fa09bf7f744ebcc34d
 
 Package: hping3
 Architecture: aarch64
@@ -137,22 +157,11 @@ Homepage: http://www.hping.org/
 Depends: libandroid-shmem, libpcap, tcl
 Description: hping is a command-line oriented TCP/IP packet assembler/analyzer.
 Filename: aarch64/hping3_3.0.0-1_aarch64.deb
+Size: 57388
+MD5Sum: 7b41e79e0daebb9b559ab7fdaea7e087
 SHA1: 90877f57ce7c89d4cf71bd713ca3a64929096d86
 SHA256: ed993c2dd55839566943d90bdc9d426ca9543dc4d326b5f2c41d89a6560e8725
-Size: 57388
-
-Package: hw-probe
-Architecture: all
-Installed-Size: 252
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.4-1
-Homepage: https://github.com/linuxhw/hw-probe
-Depends: curl, hwinfo, net-tools, perl
-Description: Tool to probe for hardware and check its operability
-Filename: all/hw-probe_1.4-1_all.deb
-SHA1: 1857b1a55dbbe74bfe7dbc38403082232ef14cd3
-SHA256: 8f2a2caf7a7fbd2467ecb4c5faadc24fb33730fcc013eef34fe32284caaa65a6
-Size: 40056
+SHA512: afdad959b083fc414aa47d30073e5caad1ac18f4f1cfc81f0765df011ae67e22050c27ab39ac64dadcf2b00a62cf5c2abe0c8ecccdf0fdf80217967b8dd33e4a
 
 Package: hwinfo
 Architecture: aarch64
@@ -165,9 +174,11 @@ Depends: libandroid-shmem, libuuid, libx86emu
 Replaces: hwinfo-dev
 Description: Hardware detection tool from openSUSE
 Filename: aarch64/hwinfo_21.67-1_aarch64.deb
+Size: 694220
+MD5Sum: 604b1107079d7f2358938b97faf0f0bc
 SHA1: d18e8d23abf48c45cae7675befdaf8601d2f1775
 SHA256: e49d8f9d04872dfd297324d11d6faad48991c7fa374bee5a629c97918f620954
-Size: 694220
+SHA512: b357276cb6b699ea5b2b6eb8b0f8af12b471a4433ec130c5f3253a60e5a2ea9a9c583968be6ec6a447324d56754be53643c815e14083ce2a27bca7508b857bb7
 
 Package: iodine
 Architecture: aarch64
@@ -178,9 +189,26 @@ Homepage: http://code.kryo.se/iodine
 Depends: net-tools, zlib
 Description: Tunnel IPv4 data through a DNS server
 Filename: aarch64/iodine_0.7.0-7_aarch64.deb
+Size: 41058
+MD5Sum: 3387936fb8488242c162e30a8e9911a9
 SHA1: 259d27ebcb1fe6bad1b6071a605535c6d22eea11
 SHA256: f7a8dd7c33715a087814e1702ddf5e7e39c8c4ddedc1211b1d167f119289279e
-Size: 41058
+SHA512: 42dce3fbf6883cc9ca26f44f134b4b2d0e0061fb4eaa4dfae61c8e732ccaaf0efab09b1b28d66c3fd4de1fcbe97999349c092034469f38dc10f8d62dc2192dc0
+
+Package: ipset-static
+Architecture: aarch64
+Installed-Size: 288
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 7.3-1
+Homepage: http://ipset.netfilter.org
+Depends: ipset (= 7.3-1)
+Description: Static libraries for ipset
+Filename: aarch64/ipset-static_7.3-1_aarch64.deb
+Size: 41450
+MD5Sum: 06da61dadc390822fcd21346297a13c7
+SHA1: 4066c11bd1bd832783499e277372e67d2120d43b
+SHA256: 93a5c5a6f4d3121cf5f223a3d204e488f3902346ddd2c19b47ab635210c9034c
+SHA512: 52a8f285e44067e5cb35c502d6bd5084dbc9e1b4cbda6ea8235fb8cf0f5f6407b079065542f13161e759d8e1d4534368266e7971a80f3ce81e59f44349e29ee4
 
 Package: ipset
 Architecture: aarch64
@@ -193,22 +221,11 @@ Depends: libmnl, libltdl
 Replaces: ipset-dev
 Description: Administration tool for kernel IP sets
 Filename: aarch64/ipset_7.3-1_aarch64.deb
+Size: 66232
+MD5Sum: 20d5373f49f5cbb1f8696867f90791e2
 SHA1: f483ed95a8872a64c0384f419a67a461cc4efc4f
 SHA256: 5171946e506db9e8781bc583aa21ef167338532753ab7d32ab3c03726a987474
-Size: 66232
-
-Package: ipset-static
-Architecture: aarch64
-Installed-Size: 288
-Maintainer: Vishal Biswas @vishalbiswas
-Version: 7.3-1
-Homepage: http://ipset.netfilter.org
-Depends: ipset (= 7.3-1)
-Description: Static libraries for ipset
-Filename: aarch64/ipset-static_7.3-1_aarch64.deb
-SHA1: 4066c11bd1bd832783499e277372e67d2120d43b
-SHA256: 93a5c5a6f4d3121cf5f223a3d204e488f3902346ddd2c19b47ab635210c9034c
-Size: 41450
+SHA512: bfa9c7967be7412a2446d2b4c817e6fa1dab007ed48ce52d14a8dfb5259b5eef8453cf405cffe1bb9e61632273f1df4d0171d9759211957374d68254bf7c1760
 
 Package: iw
 Architecture: aarch64
@@ -219,9 +236,26 @@ Homepage: https://wireless.wiki.kernel.org/en/users/documentation/iw
 Depends: libnl
 Description: CLI configuration utility for wireless devices
 Filename: aarch64/iw_5.3-1_aarch64.deb
+Size: 69848
+MD5Sum: ae61a7aa706c1d3eae9ef75367bbf358
 SHA1: b26a2f13cb87148cf2973c59afe28d99f86af725
 SHA256: 879aebe67a5fe52e8540931bb7a05ef3b7a33a92ac25081556e381b84f21bcce
-Size: 69848
+SHA512: 68b085a4bd4045ac0ccb3d87f88bbaa66a8877e3810ead921e4bb6718e00fed395786309d394c36a1993460c14401fc3506339a50c005564e58a85c62843b166
+
+Package: libaio-static
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.112-2
+Homepage: http://lse.sourceforge.net/io/aio.html
+Depends: libaio (= 0.3.112-2)
+Description: Static libraries for libaio
+Filename: aarch64/libaio-static_0.3.112-2_aarch64.deb
+Size: 3014
+MD5Sum: c12e953ecb68d17d8c47d133d53368e9
+SHA1: 72a1ccc3779f94085dcb10240edacafe31340553
+SHA256: 70c496b699b53fe51ce69b98cf7c76f3faf1f3b46ee3a9d6d3d5827b69e931df
+SHA512: a9cf70c09e3ec8249195451bd4509103d03ec25a3a104f308c6dd8010a08d4db31d710fd2c831c4203946c67ea6ee835bfa655509fca1eb74d49f67a25ae6e61
 
 Package: libaio
 Architecture: aarch64
@@ -233,22 +267,11 @@ Breaks: libaio-dev
 Replaces: libaio-dev
 Description: Linux kernel AIO access library
 Filename: aarch64/libaio_0.3.112-2_aarch64.deb
+Size: 4888
+MD5Sum: 323c44518291f8ae3fae03b5578eda07
 SHA1: 856231b923a9fca5ebb62516869344019a398990
 SHA256: e74f1ceada85facb58eddab72c4077bbffdfe8ccc768436f1aa3eade0adc3c48
-Size: 4888
-
-Package: libaio-static
-Architecture: aarch64
-Installed-Size: 48
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.3.112-2
-Homepage: http://lse.sourceforge.net/io/aio.html
-Depends: libaio (= 0.3.112-2)
-Description: Static libraries for libaio
-Filename: aarch64/libaio-static_0.3.112-2_aarch64.deb
-SHA1: 72a1ccc3779f94085dcb10240edacafe31340553
-SHA256: 70c496b699b53fe51ce69b98cf7c76f3faf1f3b46ee3a9d6d3d5827b69e931df
-Size: 3014
+SHA512: 38ec38a2a4390f3cf83d2c4b22f39316244db08362b0227f6ab9e859587cf00123cf0d2986a3a01e9829ccb101eadffb2fab87874ba14d32611f0e43d0e6a0c4
 
 Package: libccid
 Architecture: aarch64
@@ -259,9 +282,11 @@ Homepage: https://ccid.apdu.fr/
 Depends: libpcsclite, libusb, flex
 Description: A generic USB CCID (Chip/Smart Card Interface Devices) driver and ICCD (Integrated Circuit(s) Card Devices).
 Filename: aarch64/libccid_1.4.31-1_aarch64.deb
+Size: 41854
+MD5Sum: cfeb1a0b9821ddd2a8817e3ba3f71bfb
 SHA1: 8dec79a394ecc68563348cfb2b5d1db8c1033a01
 SHA256: 0018f9ef0f69ef5b03db1ba3a732167b5729f919cdae20eb95528509eb4b367d
-Size: 41854
+SHA512: d36b2d58712c18e7e623bf3e0e62923ba6ff9cbfbead60231ecac7166e251ab09321f658f226a353413f3de2102c2360cf0d920c444cba040aa1fac0e954f196
 
 Package: libdevmapper
 Architecture: aarch64
@@ -274,9 +299,26 @@ Depends: libandroid-support, libaio, readline
 Replaces: libdevmapper-dev
 Description: A device-mapper library from LVM2 package
 Filename: aarch64/libdevmapper_2.03.01-2_aarch64.deb
+Size: 124964
+MD5Sum: 52d1d4d9758c02f91b1aa246a12b57ba
 SHA1: ef60b3ab73b9c8284e7e20cfdb3c78e0e9dbe90b
 SHA256: 8c81cdae5775152090518248bccec59e620bec38d22e4fc3d624d412aabcab51
-Size: 124964
+SHA512: 826cc6744e1993af606b797d2609c03dc238b64d318966c837835b5aa6af716838a566b495d6b0677c57c35cf9c8c52ab946a37d0f7acca6060456e23c6e3c2e
+
+Package: libpcsclite-static
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.25-2
+Homepage: https://pcsclite.apdu.fr/
+Depends: libpcsclite (= 1.8.25-2)
+Description: Static libraries for libpcsclite
+Filename: aarch64/libpcsclite-static_1.8.25-2_aarch64.deb
+Size: 21120
+MD5Sum: bdb961ecfcdd093cb17979a4af9cc43b
+SHA1: 4148b568af08d6744ac5de3cddf57d83627f399a
+SHA256: fe738ffcb53b763d77451e2efb134669de879a2d781734c53ec854f39823d3d4
+SHA512: 4cee6398f06ad96cbf12b1009cf1f2eb23789245940d013a9129449b568886c6404181dcec00985347892dda56e1a70cb5aa12c7adedba4a3368422967609524
 
 Package: libpcsclite
 Architecture: aarch64
@@ -289,22 +331,26 @@ Depends: libusb, python2
 Replaces: libpcsclite-dev
 Description: Middleware to access a smart card using SCard API (PC/SC).
 Filename: aarch64/libpcsclite_1.8.25-2_aarch64.deb
+Size: 44288
+MD5Sum: 0e434d2002dc0503d457c3bef5322ec3
 SHA1: 2489e43fd4de62e0b4050900d14dcaf1d6719a88
 SHA256: 090a1d0ef863e8ccb3b00982ddebb5e7c560fb5f5c45be278416110581e91e7d
-Size: 44288
+SHA512: 2bd6ec7334da75da2a15fa725d4e647b1a6b65cf23b4bc3dda5cc4891c1d8acb2d8154dbf759bdbad92d8714b250ae2b72355474ddc97ba1fb11107d6106a221
 
-Package: libpcsclite-static
+Package: libseccomp-static
 Architecture: aarch64
-Installed-Size: 124
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.8.25-2
-Homepage: https://pcsclite.apdu.fr/
-Depends: libpcsclite (= 1.8.25-2)
-Description: Static libraries for libpcsclite
-Filename: aarch64/libpcsclite-static_1.8.25-2_aarch64.deb
-SHA1: 4148b568af08d6744ac5de3cddf57d83627f399a
-SHA256: fe738ffcb53b763d77451e2efb134669de879a2d781734c53ec854f39823d3d4
-Size: 21120
+Installed-Size: 432
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.4.1-2
+Homepage: https://github.com/seccomp/libseccomp
+Depends: libseccomp (= 2.4.1-2)
+Description: Static libraries for libseccomp
+Filename: aarch64/libseccomp-static_2.4.1-2_aarch64.deb
+Size: 31102
+MD5Sum: 098851f3b33b0844a789a59754421515
+SHA1: 55048e45e251ef01e80a3a831ab3ad1df41e9556
+SHA256: 78f219960051a233ad8c83ec0cb9a2a3800c6d428dabd2fe309c2861abd2bcf8
+SHA512: 9b9fa74f66b06fe1229db6d5aff8bb4114e6608af894edd24776ef5c6d82761b318dc5530d395b87d9c8cf09af4f7c8583a733c30a4ea42ce0d1366caf205e65
 
 Package: libseccomp
 Architecture: aarch64
@@ -316,22 +362,11 @@ Breaks: libseccomp-dev
 Replaces: libseccomp-dev
 Description: Enhanced seccomp library
 Filename: aarch64/libseccomp_2.4.1-2_aarch64.deb
+Size: 66124
+MD5Sum: efd2f88517b629d755020473380059a5
 SHA1: 90c83f3fc459d7087c0d07f6f2755cc3138724dc
 SHA256: 8ce3e8b3443af7dc282107ae5a7e14cdbe1c1b2907c60f9bf3c8ffcf72e4285b
-Size: 66124
-
-Package: libseccomp-static
-Architecture: aarch64
-Installed-Size: 432
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.4.1-2
-Homepage: https://github.com/seccomp/libseccomp
-Depends: libseccomp (= 2.4.1-2)
-Description: Static libraries for libseccomp
-Filename: aarch64/libseccomp-static_2.4.1-2_aarch64.deb
-SHA1: 55048e45e251ef01e80a3a831ab3ad1df41e9556
-SHA256: 78f219960051a233ad8c83ec0cb9a2a3800c6d428dabd2fe309c2861abd2bcf8
-Size: 31102
+SHA512: 2ab9b82ff432039fb5ea16ce2003a192b57c4b7472e8237cd3829a24c86a25ba16d78395ec87aa47ac525c56fb891a1e4a63cba053b6044210c3ff5024fb9031
 
 Package: libx86emu
 Architecture: aarch64
@@ -343,9 +378,26 @@ Breaks: libx86emu-dev
 Replaces: libx86emu-dev
 Description: x86 emulation library
 Filename: aarch64/libx86emu_2.4-1_aarch64.deb
+Size: 39054
+MD5Sum: 489f6197e2f375b29544fd026eb86284
 SHA1: a655fc49dc1dde823a44dbdc9db38a770f6e84ce
 SHA256: c6c9b534f8e519354312b556b2e61586865fea0c856756854e2290d8e45c0e5f
-Size: 39054
+SHA512: bfe9625355351e0eb2b5974742d50f2cf45d329c8561ef4de8ac933ebdc13769d1e01f4452f7ce548a66584f0150a11fb4ec948aee9e12d21d5fcc1cf97c13f2
+
+Package: lxc-static
+Architecture: aarch64
+Installed-Size: 4532
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.2.1-1
+Homepage: http://linuxcontainers.org/
+Depends: lxc (= 3.2.1-1)
+Description: Static libraries for lxc
+Filename: aarch64/lxc-static_3.2.1-1_aarch64.deb
+Size: 779996
+MD5Sum: 4bbb71f5b242590f9761490ebc943fcb
+SHA1: 5e88f91f3251283a60ec2eaf207ffe6e761bd8fb
+SHA256: 790312a7cab5e12c3190ffa4113aafc84e5a83c4bb018033a20a84655513a6e1
+SHA512: 1f07907794b8fbceb5954fb1dd0485599ab83a65d6d3a5c84e8e7a91cff039abc1fa577a1d5bd8cbcb740c43febe23e8cad5090fd81dd1a5c539a2a179b53849
 
 Package: lxc
 Architecture: aarch64
@@ -358,22 +410,11 @@ Depends: gnupg, libcap, libseccomp, rsync, wget
 Replaces: lxc-dev
 Description: Linux Containers
 Filename: aarch64/lxc_3.2.1-1_aarch64.deb
+Size: 404974
+MD5Sum: fedced496ad8702578792aec14df9897
 SHA1: 43c619bff98c3ddb7a5c031917399752d2f6613a
 SHA256: 012962902ad6f7121e751471cca82b67ae6eec7c2d774037b0c562a5b7382ca3
-Size: 404974
-
-Package: lxc-static
-Architecture: aarch64
-Installed-Size: 4532
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 3.2.1-1
-Homepage: http://linuxcontainers.org/
-Depends: lxc (= 3.2.1-1)
-Description: Static libraries for lxc
-Filename: aarch64/lxc-static_3.2.1-1_aarch64.deb
-SHA1: 5e88f91f3251283a60ec2eaf207ffe6e761bd8fb
-SHA256: 790312a7cab5e12c3190ffa4113aafc84e5a83c4bb018033a20a84655513a6e1
-Size: 779996
+SHA512: f203fe2c364ad73a14000a37226337b88a184fcacd6ba7f8d644ebb6bbf5a2e79a6d325651aa7ad15f9c9e25a69333d015dc419f7866ee3ac1b8cfde5dcfc7e2
 
 Package: macchanger
 Architecture: aarch64
@@ -383,9 +424,11 @@ Version: 1.7.0-1
 Homepage: https://github.com/alobbs/macchanger
 Description: Utility that makes the maniputation of MAC addresses of network interfaces easier
 Filename: aarch64/macchanger_1.7.0-1_aarch64.deb
+Size: 181054
+MD5Sum: d6f81f2b19445a381b14318fd795d55b
 SHA1: 6d18872705e834e1183409fe5fa1a49a0b19609b
 SHA256: 53f761204c027460c6aeab7549932dfa2231db6892cd9893ffd23073c3ef280c
-Size: 181054
+SHA512: 8f7c77b170818260b2f85b2bdf9176af8ede178d495c2955c31a3006bf7df2e27ea63cdaee981e7b1d677c353f5d66ecc54403fad06aca5532f319d3af157833
 
 Package: mtr
 Architecture: aarch64
@@ -396,9 +439,11 @@ Homepage: https://github.com/traviscross/mtr
 Depends: ncurses
 Description: Network diagnostic tool
 Filename: aarch64/mtr_0.93-1_aarch64.deb
+Size: 41546
+MD5Sum: 19b9654190106929c310a87d97ece943
 SHA1: cb9fc2e170d12a837d968b3c4920764019d4255d
 SHA256: 09aad96abbc757af4db17bf1984d00f63de84d73693371290be791a5053abbd2
-Size: 41546
+SHA512: 41e8a27ed724cea22d18ca4b1c69233597af906863e9ed6c9429f116e5684732155ff9439338d68927144a516cb4671e3790014323404bff8179ebbc863284a6
 
 Package: nethogs
 Architecture: aarch64
@@ -409,9 +454,11 @@ Homepage: https://github.com/raboof/nethogs
 Depends: libc++, ncurses, libpcap
 Description: Net top tool grouping bandwidth per process
 Filename: aarch64/nethogs_0.8.5-git-3_aarch64.deb
+Size: 36124
+MD5Sum: 2bb8f0112316d9c7cd8ced5edfee3388
 SHA1: df89fe166ef21f073d427a7b5b26e8f7477ff407
 SHA256: 48be3bdf5323b19da89d814a5171871acbada2ffb7f8987a41cea9b1f61f932c
-Size: 36124
+SHA512: d04ab3077968e71f1cd639d206cd24c5c68a956e76ca82f82318a7c8846926ae86b9d75328b2684062cbeb9174439caf1dd0e603d0b23c46f2ba484673e46618
 
 Package: openvpn
 Architecture: aarch64
@@ -422,9 +469,11 @@ Homepage: https://openvpn.net
 Depends: liblz4, liblzo, net-tools, openssl
 Description: An easy-to-use, robust, and highly configurable VPN (Virtual Private Network)
 Filename: aarch64/openvpn_2.4.8-1_aarch64.deb
+Size: 286252
+MD5Sum: 026a5aa5784d8ee718658810ce8b0b08
 SHA1: 8f69c221db07710b76f4e0d552a6ca816ecba0db
 SHA256: e5b3d25accaabdd5de38adaa5964383938a0e3e88ef812ca70394bffc85c1c45
-Size: 286252
+SHA512: 7b3005be6a9a930f60d9784fdc610407b824dd5abd7986f05a30274fea024d814ddbbf6591c4ad3dce0db2407d6a49156b7142562155f6a8db82b5ef1d36381e
 
 Package: pciutils
 Architecture: aarch64
@@ -435,9 +484,11 @@ Homepage: https://mj.ucw.cz/sw/pciutils/
 Depends: zlib
 Description: a collection of programs for inspecting and manipulating configuration of PCI devices
 Filename: aarch64/pciutils_3.6.2-1_aarch64.deb
+Size: 316856
+MD5Sum: f7dbe63a1b36e992cefedcec23dc015d
 SHA1: d53d6d8ba515869949cef505b36f7eab68fba008
 SHA256: 8b23a43135e51fda4ca3a1a31aa0a024ec397bc7f36ab3e373c551e875cc4745
-Size: 316856
+SHA512: 122677bd2e76d6c662b3bf6049f6aa682780c90b9cb62e1d74c7b8171d5f8898d4255580dcaa98ff440d96e1b1ad46cc16026e12533fa146d821dac199ce326a
 
 Package: pcscd
 Architecture: aarch64
@@ -448,9 +499,11 @@ Homepage: https://pcsclite.apdu.fr/
 Depends: libpcsclite (= 1.8.25-2)
 Description: Middleware to access a smart card using SCard API (PC/SC). (daemon side)
 Filename: aarch64/pcscd_1.8.25-2_aarch64.deb
+Size: 38196
+MD5Sum: 5d2f7548c17ba0f429a22081a3142584
 SHA1: 2a27ff85091d31d529b56a351740634711d688e0
 SHA256: b6fa46f3853503bc690fbfe28ac5e8780d2b48f5e9dd88b9784b1c3768a2e00a
-Size: 38196
+SHA512: 5c34f4633f57d42a2186223095213cb2fb8867c1262f7a140d5be688fc146ed6dfd6b010cc6b08c478872069d5263494c10055136a6819d1486bb4e4c3da61c8
 
 Package: runc
 Architecture: aarch64
@@ -461,9 +514,11 @@ Homepage: https://www.opencontainers.org/
 Depends: libseccomp
 Description: A tool for spawning and running containers according to the OCI specification
 Filename: aarch64/runc_1.0.0-rc8-2_aarch64.deb
+Size: 1990828
+MD5Sum: e978e6327175f55189c7cda7ee53bf8d
 SHA1: 0928076fc7086b0e342aca6238dad2843b4f17e5
 SHA256: 9e71f910e763bd57d1804ac5642bbae48dc395f8657a5a00cc6cd4c5963a42d8
-Size: 1990828
+SHA512: d3811405bfcd08ec2eb1114b0f5579a49f554ffc7af0e90130fb411dc50e02ec5eaebb8a75284a11cb17d6a23eb856724127fc70a00db4e81e7d7df6de09fe02
 
 Package: tcpdump
 Architecture: aarch64
@@ -474,9 +529,11 @@ Homepage: https://www.tcpdump.org/
 Depends: openssl, libpcap
 Description: A powerful command-line packet analyzer
 Filename: aarch64/tcpdump_4.9.3-1_aarch64.deb
+Size: 285042
+MD5Sum: 62f8e85ec51e9795374788e33784493c
 SHA1: b3ae25cc8e6f7cd6daddb6a6e383ad52a17f2523
 SHA256: 4240d5ab02f5dc3bd5fed9e162c41be3e27c3b1190ba4a61c8444d0dc4402bb9
-Size: 285042
+SHA512: 470fd07d13efa7d3f2a097441378d3e38c76789507aef3b767ea2dbd6393d5eb2e93b5be41cf47a1600685dd1f96d4c523fdcade425cb7f3af94d09e9e973bff
 
 Package: termshark
 Architecture: aarch64
@@ -487,9 +544,11 @@ Homepage: https://termshark.io
 Depends: tshark
 Description: A terminal UI for tshark, inspired by Wireshark
 Filename: aarch64/termshark_1.0.0-2_aarch64.deb
+Size: 3504480
+MD5Sum: 41ee86b9bd1a28920f3e693fa4c0aefa
 SHA1: 318c47d723068fe380e8472973a607b821300df5
 SHA256: 6fba6f209e4d428078f269eb505a1f4b89c151f6d454fc753e5b5c8fe9b049e9
-Size: 3504480
+SHA512: f777c953def80a07f6aeeee256cdc15bfd0343dd02f526e58faddb188b4b462c8d80866b80d2428d0f0c42d007e5cfa1383e47d3bb9fa58a50a57e1a6ae43f81
 
 Package: tinc
 Architecture: aarch64
@@ -500,9 +559,11 @@ Homepage: https://www.tinc-vpn.org/
 Depends: liblzo, openssl, zlib
 Description: VPN daemon
 Filename: aarch64/tinc_1.0.36-2_aarch64.deb
+Size: 88806
+MD5Sum: d82da6eeaf2a5644a13ecf26fab561ff
 SHA1: 7927010848c6ce119b4eb5295c6cdafc44894ae2
 SHA256: 698ac824e15b8d1b7a2bff33309d6ea68fd5403cedba8c8949f881b7b7a24435
-Size: 88806
+SHA512: 77626187306c07add1b258949d91d650782e6ac8829106c8f0d4a04cf9b2572ac81e9ff991a80c94c50a4a199d82006a32b0023eb3fae2ccc2adf92fb59362cc
 
 Package: tshark
 Architecture: aarch64
@@ -515,9 +576,11 @@ Depends: glib, libgpg-error, libgcrypt, libnl, libpcap, libgnutls, openssl, libi
 Replaces: tshark-dev
 Description: Network protocol analyzer and sniffer
 Filename: aarch64/tshark_3.0.6-1_aarch64.deb
+Size: 14885036
+MD5Sum: dc0944ea422c57eb15f63a3489da0db4
 SHA1: 00de41558b6f11dac07717a78d81193d182aef28
 SHA256: e1453b6d339be484590c10a93108a0aed731f79278cfee6c2b7936f879871977
-Size: 14885036
+SHA512: e5aa30a35733daa41e3a61eca6031e37b0f596c24c6e7bb7d41632b863bc29c27a89bcaf25f04899784ee4a7650da067e7f40613d075478c96d388ac31c8dace
 
 Package: wavemon
 Architecture: aarch64
@@ -528,9 +591,26 @@ Homepage: https://github.com/uoaerg/wavemon
 Depends: libcap, libnl, ncurses
 Description: Ncurses-based monitoring application for wireless network devices
 Filename: aarch64/wavemon_0.9.0-3_aarch64.deb
+Size: 49124
+MD5Sum: 85c7015ada003c75331259462247498b
 SHA1: 5cc4c34622dca7f08cd59d08c58c628a987d5f18
 SHA256: fd97e66c8def2fe3b514bdcd879b0685686ee6c2b6d0de58d1ae42b556c01541
-Size: 49124
+SHA512: 9d1331a0d6cf8a062062bf11d35f3bae313e5171bab8f9fe11368e36565b84ab293ec40b267c3137c6c2d772fc943767cdf14c5370c0470003fe0b38ee57fe36
+
+Package: wireless-tools-static
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Fredrik Fornwall @fornwall
+Version: 30pre9-3
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools
+Depends: wireless-tools (= 30pre9-3)
+Description: Static libraries for wireless-tools
+Filename: aarch64/wireless-tools-static_30pre9-3_aarch64.deb
+Size: 12046
+MD5Sum: 4356e466d98258b0cbb3212854ae68cb
+SHA1: 643a5033731a95feb91d31e0dcc346f0c8732575
+SHA256: b5a28844fee78f1d64c2792d8ce26858cb5b653c924b71b67686a51f525b5ff1
+SHA512: 6951a66657eb156f587caa86f45477ebb23b9fcaaaad765468d991d7b7609a5de233759f64a8e949c61c1b14d38f186a027c2dae87b9835d1b74a4cd015d1ee8
 
 Package: wireless-tools
 Architecture: aarch64
@@ -542,20 +622,9 @@ Breaks: wireless-tools-dev
 Replaces: wireless-tools-dev
 Description: A set of tools allowing to manipulate the Wireless Extensions
 Filename: aarch64/wireless-tools_30pre9-3_aarch64.deb
+Size: 83824
+MD5Sum: 811bbf909fc35b7257c22f82d38e4643
 SHA1: 01f94eafb7e64416657fd1f72314e8586ba9e612
 SHA256: aea3013378ede6bb64ffa180de3adef8dc5b324277cc8e4a67c1359cfef895e5
-Size: 83824
-
-Package: wireless-tools-static
-Architecture: aarch64
-Installed-Size: 68
-Maintainer: Fredrik Fornwall @fornwall
-Version: 30pre9-3
-Homepage: https://hewlettpackard.github.io/wireless-tools/Tools
-Depends: wireless-tools (= 30pre9-3)
-Description: Static libraries for wireless-tools
-Filename: aarch64/wireless-tools-static_30pre9-3_aarch64.deb
-SHA1: 643a5033731a95feb91d31e0dcc346f0c8732575
-SHA256: b5a28844fee78f1d64c2792d8ce26858cb5b653c924b71b67686a51f525b5ff1
-Size: 12046
+SHA512: a4cc086930d498141bb240a3782197eab17cfdcb87bad3b10d349f7be760a578b82da4f723cddd0f1ed0d01a3ed36e1592f1afcade32295a871342b2c2b388f6
 
