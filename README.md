@@ -15,5 +15,5 @@ deb https://dl.bintray.com/grimler/termux-root-packages-21 root stable
 to
 
 ```
-deb https://termux.org/termux-root-packages-21-bin root stable
+deb https://termux.dev/termux-root-packages-21-bin root stable
 ```
